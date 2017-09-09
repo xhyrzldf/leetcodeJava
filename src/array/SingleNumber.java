@@ -12,8 +12,8 @@ public class SingleNumber {
         if (A == null) return 0;
         int result = 0;
         //使用异或运算,根据 A^B = B^A , 0^A = A 因此 A ^ A = 0 ^ A ^ A = 0 ,这样所有个数为两个的数经过异或后都变成了0
-        for (int i = 0; i < A.length; i++) {
-            result ^= A[i];
+        for (int aA : A) {
+            result ^= aA;
         }
         return result;
     }
