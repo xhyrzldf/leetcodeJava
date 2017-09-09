@@ -5,6 +5,9 @@ package array;
  * Given an array of integers, every element appears twice except for one. Find that single one.
  * Note: Your algorithm should have a linear runtime complexity. Could you implement it without using
  * extra memory?
+ * 翻译: 单个数字
+ * 给定一个int类型的数组,除了一个数字,其余的每个数字都出现了两次,找到这个单身的数字 :)
+ * 提示 你的算法应该拥有线性的复杂度,也就是说为O(n)或者O(1),你能不使用额外内存的空间下解决这个问题咩?
  */
 public class SingleNumber {
 
