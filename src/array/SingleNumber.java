@@ -15,7 +15,6 @@ public class SingleNumber {
 
     /**
      * 这是使用异或操作的解法得
-     *
      * @param A 给定的数组
      * @return 那个单身数字, 如果没有就返回0
      */
@@ -32,9 +31,8 @@ public class SingleNumber {
     /**
      * 这是正常思维的解法
      * 正常思维遇见这类问题,排序会让问题简化许多
-     *
      * @param A 给定的数组
-     * @return 那个单身数字, 如果没有就返回0
+     * @return 那个单身数字, 如果没有就返回
      */
     public int singleNumber02(int[] A) {
         if (A == null) return 0;
