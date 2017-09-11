@@ -7,3 +7,4 @@
 - 代码也会尽量修改成易于理解的代码
 ## 更新记录
 - 2017-09-10 更新了Two Sum 解法
+- 2017-09-11 添加了RemoveDuplicatesfromSortedArrayII 解法
