@@ -34,6 +34,29 @@ public class SortUtil {
     }
 
     /**
+     * 获得一个近乎有序的数组
+     *
+     * @param n         数组长度
+     * @param swapTimes 交换次数
+     * @return 近乎有序的数组
+     */
+    public static int[] getRandomArrayNearlyOrder(int n, int swapTimes) {
+        Random random = new Random();
+        int[] array = new int[n];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(n);
+        }
+        //swap
+        for (int i = 0; i < array.length; i++) {
+            int randomPoi = random.nextInt(array.length);
+            int temp = array[i];
+            array[i] = array[randomPoi];
+            array[randomPoi] = temp;
+        }
+        return array;
+    }
+
+    /**
      * 算法计算时间的辅助函数
      *
      * @param array    传入的数组
