@@ -1,7 +1,7 @@
 package utils;
 
 import java.util.Random;
-import java.util.function.Function;
+import java.util.function.Consumer;
 
 public class SortUtil {
 
@@ -44,10 +44,10 @@ public class SortUtil {
         Random random = new Random();
         int[] array = new int[n];
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(n);
+            array[i] = i;
         }
         //swap
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < swapTimes; i++) {
             int randomPoi = random.nextInt(array.length);
             int temp = array[i];
             array[i] = array[randomPoi];
@@ -64,14 +64,29 @@ public class SortUtil {
      * @param sortName 算法名称
      * @return 排序好的数组
      */
-    public static int[] printSortTime(int[] array, Function<int[], int[]> sort, String sortName) {
+    public static void printSortTime(int[] array, Consumer<int[]> sort, String sortName) {
         long start = System.nanoTime();
-        array = sort.apply(array);
+        sort.accept(array);
         long end = System.nanoTime();
-        System.out.println(end - start);
-        double time = ((double) (end - start)) / (Math.pow(10, 6));
-        System.out.println(sortName + "\t算法花费时间为:" + time + "毫秒");
-        return array;
+        if (isSort(array)) {
+            double time = ((double) (end - start)) / (Math.pow(10, 6));
+            System.out.println(sortName + "\t算法花费时间为:" + time + "毫秒");
+        } else System.out.println("该数组不是有序的!请检查排序算法~");
+    }
+
+    /**
+     * 检查一个数组是否有序
+     *
+     * @param array 待检查的数组
+     * @return 检查结果
+     */
+    private static boolean isSort(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] > array[i + 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 
 }
