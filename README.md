@@ -8,3 +8,4 @@
 ## 更新记录
 - 2017-09-10 更新了Two Sum 解法
 - 2017-09-11 添加了RemoveDuplicatesfromSortedArrayII 解法
+- 2017-09-15 添加了排序工具类,插入排序与选择排序
