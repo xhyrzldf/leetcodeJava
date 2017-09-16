@@ -9,6 +9,10 @@ public class SelectionSort {
         printSortTime(array, SelectionSort::selectionSort, "selectionSort");
     }
 
+    /**
+     * 选择排序算法
+     * @param array
+     */
     public static void selectionSort(int[] array) {
         int n = array.length;
         for (int i = 0; i < n; i++) {
