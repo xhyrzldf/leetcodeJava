@@ -98,13 +98,13 @@ public class SortUtil {
      * @param sortName 算法名称
      * @return 排序好的数组
      */
-    public static void printSortTime(int[] array, Function<int[], int[]> sort, String sortName) {
-        long start = System.nanoTime();
-        sort.apply(array);
-        long end = System.nanoTime();
-        int[] sortArray = sort.apply(array);
-        checkArrayIsSortedAndPrintTimes(sortArray, sortName, start, end);
-    }
+//    public static void printSortTime(int[] array, Function<int[], int[]> sort, String sortName) {
+//        long start = System.nanoTime();
+//        sort.apply(array);
+//        long end = System.nanoTime();
+//        int[] sortArray = sort.apply(array);
+//        checkArrayIsSortedAndPrintTimes(sortArray, sortName, start, end);
+//    }
 
     /**
      * 检查一个数组是否有序

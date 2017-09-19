@@ -43,4 +43,23 @@ public class InsertionSort {
             array[j] = e;
         }
     }
+
+    /**
+     * 对一个数组arr[l,r]范围内的数字进行插入排序
+     *
+     * @param arr
+     * @param l
+     * @param r
+     */
+    public static void insertionSortForOpt(int[] arr, int l, int r) {
+        for (int i = l + 1; i <= r; i++) {
+            //寻找arr[i]合适的插入位置
+            int e = arr[i];
+            int j;//j表示arr[i]合适的插入位置
+            for (j = i; j > l && arr[j - 1] > e; j--) {
+                arr[j] = arr[j - 1];
+            }
+            arr[j] = e;
+        }
+    }
 }
