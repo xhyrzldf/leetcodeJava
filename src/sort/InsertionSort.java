@@ -7,9 +7,9 @@ import static utils.SortUtil.*;
 public class InsertionSort {
 
     public static void main(String[] args) {
-        int[] array = getRandomArrayNearlyOrder(1000000, 10);
-        int[] array02 = Arrays.copyOf(array, array.length);
-        int[] array03 = Arrays.copyOf(array, array.length);
+        final int[] array = getRandomArrayNearlyOrder(1000000, 10);
+        final int[] array02 = Arrays.copyOf(array, array.length);
+        final int[] array03 = Arrays.copyOf(array, array.length);
         printSortTime(array, SelectionSort::selectionSort, "选择排序");
         printSortTime(array02, InsertionSort::insertionSort, "插入排序");
         printSortTime(array03, InsertionSort::insertionSortOpt, "优化插入排序");
@@ -17,7 +17,6 @@ public class InsertionSort {
 
     /**
      * 插入排序算法,原始版本,使用交换
-     *
      * @param array
      */
     public static void insertionSort(int[] array) {

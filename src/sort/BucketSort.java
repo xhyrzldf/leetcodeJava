@@ -1,6 +1,7 @@
 package sort;
 
-import static utils.SortUtil.*;
+import static utils.SortUtil.getRandomArray;
+import static utils.SortUtil.printSortTime;
 
 /**
  * @Description
@@ -9,15 +10,15 @@ import static utils.SortUtil.*;
  */
 public class BucketSort {
     public static void main(String[] args) {
-        int[] array = getRandomArray(1000000,10);
-        printSortTime(array,BucketSort::bucketSort, "桶排序");
+        int[] array = getRandomArray(1000000, 10);
+        printSortTime(array, BucketSort::bucketSort, "桶排序");
 
     }
 
     /**
      * 桶排序
      *
-     * @param array
+     * @param array ok
      */
     public static void bucketSort(int[] array) {
         //获得数组中的最大值,确定桶的数量

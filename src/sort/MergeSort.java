@@ -11,8 +11,6 @@ public class MergeSort {
         int[] arr = getRandomArray(n, 150000);
         int[] arr02 = Arrays.copyOf(arr, n);
         int[] arr03 = Arrays.copyOf(arr, n);
-        int[] arr04 = Arrays.copyOf(arr, n);
-        int[] arr05 = Arrays.copyOf(arr, n);
         printSortTime(arr, MergeSort::mergeSort, "mergeSort");
         printSortTime(arr02, MergeSort::mergeSortBU, "mergeSortBottomUp");
         printSortTime(arr03, Arrays::sort, "jdkSort");
