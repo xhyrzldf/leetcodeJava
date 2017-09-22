@@ -75,11 +75,20 @@ public class QuickSort {
         return j;
     }
 
-
+    /**
+     * 两个下标扫描,目的是平均相同数字的部分到前后两个区域
+     *
+     * @param arr
+     */
     public static void quickSort2(int[] arr) {
         __quickSort2(arr, 0, arr.length - 1);
     }
 
+    /**
+     * @param arr
+     * @param l
+     * @param r
+     */
     public static void __quickSort2(int[] arr, int l, int r) {
         if (r - l <= 15) {
             InsertionSort.insertionSortForOpt(arr, l, r);
@@ -100,9 +109,9 @@ public class QuickSort {
      * @return
      */
     public static int __partition2(int[] arr, int l, int r) {
+
         swap(arr, l, new Random().nextInt(r - l + 1) + l);
         int e = arr[l];
-
         // arr[l+1...i) <= e , arr(j...r] >= e
         int i = l + 1, j = r;
         while (true) {
