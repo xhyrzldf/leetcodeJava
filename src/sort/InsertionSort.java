@@ -32,7 +32,7 @@ public class InsertionSort {
      * 优化插入排序减少了交换的次数
      */
     public static void insertionSortOpt(int[] array) {
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 1; i < array.length; i++) {
             //寻找array[i]合适的插入位置
             int e = array[i];
             int j; // j保存e应该插入的位置
@@ -51,6 +51,7 @@ public class InsertionSort {
      * @param r
      */
     public static void insertionSortForOpt(int[] arr, int l, int r) {
+        //对范围arr[l,r] 进行插入排序
         for (int i = l + 1; i <= r; i++) {
             //寻找arr[i]合适的插入位置
             int e = arr[i];
