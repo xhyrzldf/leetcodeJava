@@ -1,16 +1,21 @@
 package sort;
 
+import java.util.Arrays;
+
 import static utils.SortUtil.*;
 
 public class SelectionSort {
 
     public static void main(String[] args) {
-        int[] array = getRandomArray(100);
+        int[] array = getRandomArrayNearlyOrder(100000, 0);
+        int[] array01 = Arrays.copyOf(array, 100000);
         printSortTime(array, SelectionSort::selectionSort, "selectionSort");
+        printSortTime(array, InsertionSort::insertionSortOpt, "insertSort");
     }
 
     /**
      * 选择排序算法
+     *
      * @param array
      */
     public static void selectionSort(int[] array) {
@@ -23,7 +28,8 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
-            swap(array, i, minIndex);
+            if (minIndex != i)
+                swap(array, i, minIndex);
         }
     }
 }
