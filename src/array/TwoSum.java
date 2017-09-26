@@ -22,7 +22,7 @@ public class TwoSum {
         Map<Integer, Integer> map = new HashMap<>();// 答案MAP，用于存储答案，key为数值,value为在集合中下标
 
         for (int i = 0; i < A.length; i++) {
-            Integer answer = map.get(target - A[i]);//寻找答案
+            Integer answer = map.get(target - A[i]);//寻找答案,这里的answer是答案的下标
             if (answer == null) {
                 map.put(A[i], i);//如果没有找到对应的答案,那么就把这个数本身作为答案放入答案map，根据a+b=b+a,正在遍历的数即是请求也是答案
             } else {
