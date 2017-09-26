@@ -5,7 +5,7 @@ import static utils.SortUtil.printSortTime;
 
 /**
  * @Description
- * @Author 李迪凡[xhyrzldf@foxmail.com]
+ * @Author matrix[xhyrzldf@foxmail.com]
  * @Date 2017/9/16 22:17
  */
 public class BucketSort {

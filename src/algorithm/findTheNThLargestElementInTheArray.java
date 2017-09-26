@@ -11,7 +11,7 @@ import static utils.SortUtil.swap;
 /**
  * @Description find the n th largest element in the array
  * 寻找到数组中第几大的元素
- * @Author 李迪凡[xhyrzldf@foxmail.com]
+ * @Author matrix[xhyrzldf@foxmail.com]
  * @Date 2017/9/26 15:38
  */
 public class findTheNThLargestElementInTheArray {

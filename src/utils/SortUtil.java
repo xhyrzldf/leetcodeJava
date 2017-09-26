@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
+@SuppressWarnings("Duplicates")
 public class SortUtil {
 
     private static double originalTimes;
@@ -90,21 +91,20 @@ public class SortUtil {
         checkArrayIsSortedAndPrintTimes(array, sortName, start, end);
     }
 
+
     /**
-     * 算法计算时间的辅助函数(方法为Function类型方法)
-     *
-     * @param array    传入的数组
-     * @param sort     算法方法
-     * @param sortName 算法名称
-     * @return 排序好的数组
+     * int[] -> integer[]
+     * @param arr
+     * @return
      */
-//    public static void printSortTime(int[] array, Function<int[], int[]> sort, String sortName) {
-//        long start = System.nanoTime();
-//        sort.apply(array);
-//        long end = System.nanoTime();
-//        int[] sortArray = sort.apply(array);
-//        checkArrayIsSortedAndPrintTimes(sortArray, sortName, start, end);
-//    }
+    public static Integer[] intArrayToInetegerArray(int[] arr) {
+        Integer[] returnArr = new Integer[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            returnArr[i] = arr[i];
+        }
+        return returnArr;
+    }
+
 
     /**
      * 检查一个数组是否有序
@@ -121,9 +121,9 @@ public class SortUtil {
         return true;
     }
 
-
     /**
-       内部方法,检查一个数组是否有序并且打印出排序消耗时间
+     * 内部方法,检查一个数组是否有序并且打印出排序消耗时间
+     *
      * @param array
      * @param sortName
      * @param start
@@ -134,7 +134,33 @@ public class SortUtil {
             originalTimes = (end - start);
             double millisecond = originalTimes / (Math.pow(10, 6));
             double second = originalTimes / Math.pow(10, 9);
-            System.out.println(sortName + "\t算法花费时间为:" + millisecond + "ms(毫秒),约合" + second +"s(秒)");
+            System.out.println(sortName + "\t算法花费时间为:" + millisecond + "ms(毫秒),约合" + second + "s(秒)");
+        } else System.out.println("该数组不是有序的!请检查排序算法~");
+    }
+
+
+    public static void printSortTimeObj(Integer[] array, Consumer<Integer[]> sort, String sortName) {
+        long start = System.nanoTime();
+        sort.accept(array);
+        long end = System.nanoTime();
+        checkArrayIsSortedAndPrintTimes(array, sortName, start, end);
+    }
+
+    private static boolean isSort(Integer[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] > array[i + 1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static void checkArrayIsSortedAndPrintTimes(Integer[] array, String sortName, long start, long end) {
+        if (isSort(array)) {
+            originalTimes = (end - start);
+            double millisecond = originalTimes / (Math.pow(10, 6));
+            double second = originalTimes / Math.pow(10, 9);
+            System.out.println(sortName + "\t算法花费时间为:" + millisecond + "ms(毫秒),约合" + second + "s(秒)");
         } else System.out.println("该数组不是有序的!请检查排序算法~");
     }
 }
