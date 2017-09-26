@@ -12,6 +12,7 @@ import static utils.SortUtil.*;
  * <ul>create_date: 2017/9/22 0022</ul>
  * <ul>create_time: 下午 12:17</ul>
  **/
+@SuppressWarnings("Duplicates")
 public class QuickSort {
 
     private static int n = 1000000;
@@ -20,26 +21,26 @@ public class QuickSort {
         int[] arr = getRandomArray(n, n);
         int[] arr02 = Arrays.copyOf(arr, n);
         int[] arr03 = Arrays.copyOf(arr, n);
-        System.out.printf("\nRandom array length is : %d , \t randomRange(0,%d)\n", n, n);
-        printSortTime(arr, MergeSort::mergeSort, "mergeSort");
+  //      System.out.printf("\nRandom array length is : %d , \t randomRange(0,%d)\n", n, n);
+//        printSortTime(arr, MergeSort::mergeSort, "mergeSort");
         printSortTime(arr02, QuickSort::quickSort2, "QuickSort2");
-        printSortTime(arr03, QuickSort::quickSort3Ways, "QuickSort3Ways");
+//        printSortTime(arr03, QuickSort::quickSort3Ways, "QuickSort3Ways");
 
-        arr = getRandomArrayNearlyOrder(n, 10);
-        arr02 = Arrays.copyOf(arr, n);
-        arr03 = Arrays.copyOf(arr, n);
-        System.out.printf("\nRandom array NearlyOrder length is : %d , \t randomRange(0,%d)\n", n, n);
-        printSortTime(arr, MergeSort::mergeSort, "mergeSort");
-        printSortTime(arr02, QuickSort::quickSort2, "QuickSort2");
-        printSortTime(arr03, QuickSort::quickSort3Ways, "QuickSort3Ways");
-
-        arr = getRandomArray(n, 10);
-        arr02 = Arrays.copyOf(arr, n);
-        arr03 = Arrays.copyOf(arr, n);
-        System.out.printf("\nRandom array length is : %d , \t randomRange(0,%d)\n", n, 10);
-        printSortTime(arr, MergeSort::mergeSort, "mergeSort");
-        printSortTime(arr02, QuickSort::quickSort2, "QuickSort2");
-        printSortTime(arr03, QuickSort::quickSort3Ways, "QuickSort3Ways");
+//        arr = getRandomArrayNearlyOrder(n, 10);
+//        arr02 = Arrays.copyOf(arr, n);
+//        arr03 = Arrays.copyOf(arr, n);
+//        System.out.printf("\nRandom array NearlyOrder length is : %d , \t randomRange(0,%d)\n", n, n);
+//        printSortTime(arr, MergeSort::mergeSort, "mergeSort");
+//        printSortTime(arr02, QuickSort::quickSort2, "QuickSort2");
+//        printSortTime(arr03, QuickSort::quickSort3Ways, "QuickSort3Ways");
+//
+//        arr = getRandomArray(n, 10);
+//        arr02 = Arrays.copyOf(arr, n);
+//        arr03 = Arrays.copyOf(arr, n);
+//        System.out.printf("\nRandom array length is : %d , \t randomRange(0,%d)\n", n, 10);
+//        printSortTime(arr, MergeSort::mergeSort, "mergeSort");
+//        printSortTime(arr02, QuickSort::quickSort2, "QuickSort2");
+//        printSortTime(arr03, QuickSort::quickSort3Ways, "QuickSort3Ways");
     }
 
 
@@ -168,7 +169,7 @@ public class QuickSort {
         swap(arr, l, new Random().nextInt(r - l + 1) + l);
         int v = arr[l];
 
-        /* 3Ways partition,the array will be part of 3 parts */
+        /* 3Ways partition,The array will be divided into three sections */
         int lt = l;     //  arr[l+1, lt] < v
         int gt = r + 1; //  arr[gt, r] > v
         int i = lt + 1; //  arr[lt + 1, i) = v
