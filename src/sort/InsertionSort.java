@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import static utils.SortUtil.*;
 
+@SuppressWarnings("WeakerAccess")
 public class InsertionSort {
 
     public static void main(String[] args) {

@@ -11,6 +11,7 @@ import static utils.SortUtil.*;
  * @Author matrix[xhyrzldf@foxmail.com]
  * @Date 2017/9/26 22:53
  */
+@SuppressWarnings("WeakerAccess")
 public class HeapSort {
 
     /**
@@ -18,6 +19,7 @@ public class HeapSort {
      *
      * @param arr
      */
+    @SuppressWarnings("ForLoopReplaceableByForEach")
     public static void heapSort(int[] arr) {
         MaxHeap<Integer> maxHeap = new MaxHeap<>(arr.length);
         for (int i = 0; i < arr.length; i++) {

@@ -16,6 +16,7 @@ import java.util.Map;
  * 给定一个整形数组和一个整数target，返回2个元素的下标，它们满足相加的和为target。
  * 你可以假定每个输入，都会恰好有一个满足条件的返回结果
  */
+@SuppressWarnings("unused")
 public class TwoSum {
     public int[] twoSum(int[] A, int target) {
         if (A == null) return new int[]{0, 0};

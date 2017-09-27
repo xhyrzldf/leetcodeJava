@@ -4,13 +4,14 @@ import java.util.Arrays;
 
 import static utils.SortUtil.*;
 
+@SuppressWarnings("WeakerAccess")
 public class SelectionSort {
 
     public static void main(String[] args) {
         int[] array = getRandomArrayNearlyOrder(100000, 0);
         int[] array01 = Arrays.copyOf(array, 100000);
         printSortTime(array, SelectionSort::selectionSort, "selectionSort");
-        printSortTime(array, InsertionSort::insertionSortOpt, "insertSort");
+        printSortTime(array01, InsertionSort::insertionSortOpt, "insertSort");
     }
 
     /**

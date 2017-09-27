@@ -8,6 +8,7 @@ package array;
  * 如果每个数字要求保留最多出现两次呢?例如,给定一个排序好的数组 A=[1,1,1,2,2,3]
  * 你的方法应该返回长度为5 , 并且A 是 [1,1,2,2,3]
  */
+@SuppressWarnings("unused")
 public class RemoveDuplicatesfromSortedArrayII {
 
     public static int RemoveDuplicatesfromSortedArrayII01(int[] A) {

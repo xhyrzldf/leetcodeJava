@@ -5,6 +5,7 @@ import java.util.Arrays;
 import static utils.SortUtil.getRandomArray;
 import static utils.SortUtil.printSortTime;
 
+@SuppressWarnings("WeakerAccess")
 public class MergeSort {
     public static void main(String[] args) {
         int n = 150000;
@@ -77,9 +78,7 @@ public class MergeSort {
     //对范围arr[l,middle] 与[middle+1,r] 两部分进行归并
     private static void __merge(int[] arr, int l, int mid, int r) {
         int[] aux = new int[r - l + 1];
-        for (int i = l; i <= r; i++) {
-            aux[i - l] = arr[i];
-        }
+        System.arraycopy(arr, l, aux, 0, r -l + 1);
 
         int i = l, j = mid + 1;
         for (int k = l; k <= r; k++) {

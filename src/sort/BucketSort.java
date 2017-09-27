@@ -8,6 +8,7 @@ import static utils.SortUtil.printSortTime;
  * @Author matrix[xhyrzldf@foxmail.com]
  * @Date 2017/9/16 22:17
  */
+@SuppressWarnings("WeakerAccess")
 public class BucketSort {
     public static void main(String[] args) {
         int[] array = getRandomArray(1000000, 10);

@@ -12,7 +12,7 @@ import static utils.SortUtil.*;
  * <ul>create_date: 2017/9/22 0022</ul>
  * <ul>create_time: 下午 12:17</ul>
  **/
-@SuppressWarnings("Duplicates")
+@SuppressWarnings({"Duplicates", "unused", "WeakerAccess"})
 public class QuickSort {
 
 

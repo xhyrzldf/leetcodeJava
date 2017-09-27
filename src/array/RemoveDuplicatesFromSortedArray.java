@@ -15,6 +15,7 @@ package array;
  * ps：对于java语言来说,在不使用额外的内存空间的情况下数组长度是不能改变滴,所以这道题
  * 可以转变为例如给定数组为[1,2,3,3,5,5],返回结果长度应该为4,数组可以变为[1,2,3,5,x,x] x代表任意字符即可
  */
+@SuppressWarnings("unused")
 public class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates01(int[] A) {

@@ -6,6 +6,7 @@ package domain;
  * @Date 2017/9/26 22:39
  */
 // 我们的PrintableMaxHeap只能处理整数信息，所以继承的是MaxHeap<Comparable<Integer>>
+@SuppressWarnings("WeakerAccess")
 public class PrintableMaxHeap extends MaxHeap<Comparable<Integer>> {
 
     public PrintableMaxHeap(int capacity){
@@ -67,7 +68,8 @@ public class PrintableMaxHeap extends MaxHeap<Comparable<Integer>> {
         }
     }
 
-    private String putNumberInLine( Integer num, String line, int indexCurLevel, int curTreeWidth, boolean isLeft){
+    @SuppressWarnings("PointlessArithmeticExpression")
+    private String putNumberInLine(Integer num, String line, int indexCurLevel, int curTreeWidth, boolean isLeft){
 
         int subTreeWidth = (curTreeWidth - 1) / 2;
         int offset = indexCurLevel * (curTreeWidth+1) + subTreeWidth;

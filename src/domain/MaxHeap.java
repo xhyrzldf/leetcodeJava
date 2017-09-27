@@ -8,7 +8,7 @@ import java.util.function.Consumer;
  * @Author matrix[xhyrzldf@foxmail.com]
  * @Date 2017/9/26 18:25
  */
-@SuppressWarnings({"unused", "unchecked", "WeakerAccess"})
+@SuppressWarnings({"unused", "unchecked", "WeakerAccess", "UnusedReturnValue"})
 public class MaxHeap<T extends Comparable> {
 
     protected T[] elementData;
@@ -93,7 +93,7 @@ public class MaxHeap<T extends Comparable> {
     public void foreach(Consumer<? super T> action) {
         Objects.requireNonNull(action);
         final int expectedModCount = size;
-        final T[] elementData = (T[]) this.elementData;
+        final T[] elementData = this.elementData;
         final int size = this.size;
         for (int i = 0; size == expectedModCount && i < size; i++) {
             action.accept(elementData[i]);
@@ -142,6 +142,7 @@ public class MaxHeap<T extends Comparable> {
      * @param i
      * @param j
      */
+    @SuppressWarnings("SameParameterValue")
     private void swap(int i, int j) {
         T temp = elementData[i];
         elementData[i] = elementData[j];
