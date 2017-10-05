@@ -1,7 +1,7 @@
 package array;
 
 /**
- * RemoveDuplicatesFromSortedArray
+ * RemoveDuplicatesFromSortedArray_26
  * Given a sorted array, remove the duplicates in place such that each element appear only once
  * and return the new length.
  * Do not allocate extra space for another array, you must do this in place with constant memory.
@@ -16,7 +16,7 @@ package array;
  * 可以转变为例如给定数组为[1,2,3,3,5,5],返回结果长度应该为4,数组可以变为[1,2,3,5,x,x] x代表任意字符即可
  */
 @SuppressWarnings("unused")
-public class RemoveDuplicatesFromSortedArray {
+public class RemoveDuplicatesFromSortedArray_26 {
 
     public int removeDuplicates01(int[] A) {
         if (A == null || A.length == 0) return 0;
