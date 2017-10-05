@@ -9,24 +9,24 @@ package array;
  * 你的方法应该返回长度为5 , 并且A 是 [1,1,2,2,3]
  */
 @SuppressWarnings("unused")
-public class RemoveDuplicatesfromSortedArrayII {
+public class RemoveDuplicatesfromSortedArrayII_80 {
 
-    public static int RemoveDuplicatesfromSortedArrayII01(int[] A) {
-        if (A == null) return 0;
-        int index = 0;
-        int count = 1;//思路与移出重复数字I的题目一样,只是这里多加一个变量用于计数
-        for (int i = 0; i < A.length; i++) {
-            if (index == 0 || A[i] != A[index - 1]) {
-                A[index++] = A[i];
-                count = 1;//每次寻找到新的数字的时候重置这个统计数字变量,这样保证每个数字最多可以出现2次
+    public static int RemoveDuplicatesfromSortedArrayII01(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        int k = 1;
+        int count = 1;//思路与移出重复数字I的题目一样,只是这里多加一个变量用于计数,默认为1,因为我们是从第二个数开始遍历的
+        for (int i = 1; i < nums.length; i++) {
+            if ( nums[i] != nums[k - 1]) {
+                nums[k++] = nums[i];
+                count = 1;//每次寻找到新的数字的时候将count赋值为1
             } else {
                 if (count >= 2) {//允许重复的数字出现2次,如果超过2次了,就跳过
                     continue;
                 }
-                A[index++] = A[i];
+                nums[k++] = nums[i];
                 count++;
             }
         }
-        return index;
+        return k;
     }
 }

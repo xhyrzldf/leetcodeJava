@@ -18,28 +18,26 @@ package array;
 @SuppressWarnings("unused")
 public class RemoveDuplicatesFromSortedArray_26 {
 
-    public int removeDuplicates01(int[] A) {
-        if (A == null || A.length == 0) return 0;
-        if (A.length == 1) return 1;
-        int count = 1; //用于统计非重复数字的数量,长度大于1,所以就从1开始计,便于理解
-        for (int i = 1; i < A.length; i++) {
-            if (A[i] != A[count - 1]) { //理解这段可以理解为i是数组的一个标记,count也是一个标记,i是遍历的标记,count是非重复数字的标记
-                A[count] = A[i]; //如果判断过了,说明当前遍历的A[i]是一个独立的数字(因为数字是有序的),将A[count]的值变为A[i]
-                count++;//同时count标记往后推一位
+    public int removeDuplicates01(int[] nums) {
+        //特殊情况的判断,如果数组为null或者0,直接返回0,如果是1个元素显而易见肯定是不重复的返回1
+        if (nums == null || nums.length == 0) return 0;
+        if (nums.length == 1) return 1;
+
+        int k = 1; //arr[1,k)正确元素应当插入的位置,这里从1开始算,从0开始算也应该维护0的定义
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[k - 1]) { //k是应当插入的位置,所以k-1就是应当插入的位置的前一个元素,k和k-1位置的元素不应当相同
+                nums[k] = nums[i]; //如果判断过了,说明当前遍历的nums[i]是一个独立的数字(因为数字是有序的),将nums[k]的值变为nums[i]
+                k++;//k标记往后推一位
             }
         }
-        return count;
+        return k;
     }
 
     //02方法呢就是对01方法的一些简化写法,可以对比一下
-    public int removeDuplicates02(int[] A) {
-        if (A == null || A.length == 0) return 0;
-        int count = 0;
-        for (int i = 0; i < A.length; i++) {
-            if (count == 0 || A[i] != A[count - 1]) {
-                A[count++] = A[i];
-            }
-        }
-        return count;
+    public int removeDuplicates02(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        int k = 0;
+        for (int i = 0; i < nums.length; i++) if (k == 0 || nums[i] != nums[k - 1])  nums[k++] = nums[i];
+        return k;
     }
 }
