@@ -16,7 +16,6 @@ public class Fibonacci {
         double root5 = sqrt(5);
         System.out.println(fibRecurOpt(n));
         System.out.println(fibRecurLambdaOpt(n));
-        ConcurrentHashMap
 //        System.out.println(fibonacciIterOpt(n));
         // System.out.println(Math.round(((pow((1 + root5) / 2, n)) - (pow((1 - root5), n) / 2)) / root5));
 
