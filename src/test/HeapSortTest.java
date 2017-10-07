@@ -9,7 +9,13 @@ import java.util.Arrays;
 import static utils.SortUtil.*;
 import static utils.SortUtil.printSortTime;
 
-/** @Description @Author Matrix [xhyrzldf@foxmail.com] @Date 2017/10/7 18:02 */
+/**
+ * Description : HeapSortTest Example
+ *
+ * <p>@Author : Matrix [xhyrzldf@foxmail.com]
+ *
+ * <p>Date : 2017/10/7 18:02
+ */
 public class HeapSortTest {
 
   /**

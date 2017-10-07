@@ -8,7 +8,13 @@ import java.util.Arrays;
 import static utils.SortUtil.getRandomArrayNearlyOrder;
 import static utils.SortUtil.printSortTime;
 
-/** @Description @Author Matrix [xhyrzldf@foxmail.com] @Date 2017/10/7 18:04 */
+/**
+ * Description : InsertionSortTest Example
+ *
+ * <p>@Author : Matrix [xhyrzldf@foxmail.com]
+ *
+ * <p>Date : 2017/10/7 18:02
+ */
 public class InsertionSortTest {
   public static void main(String[] args) {
     final int[] array = getRandomArrayNearlyOrder(1000000, 10);
