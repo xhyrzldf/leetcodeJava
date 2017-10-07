@@ -7,16 +7,6 @@ import static utils.SortUtil.printSortTime;
 
 @SuppressWarnings("WeakerAccess")
 public class MergeSort {
-    public static void main(String[] args) {
-        int n = 150000;
-        int[] arr = getRandomArray(n, 150000);
-        int[] arr02 = Arrays.copyOf(arr, n);
-        int[] arr03 = Arrays.copyOf(arr, n);
-        printSortTime(arr, MergeSort::mergeSort, "mergeSort");
-        printSortTime(arr02, MergeSort::mergeSortBU, "mergeSortBottomUp");
-        printSortTime(arr03, Arrays::sort, "jdkSort");
-
-    }
 
     /**
      * 递归归并排序,对范围arr[0,n]范围内的元素进行归并排序,注意这里是闭区间
