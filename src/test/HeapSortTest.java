@@ -7,7 +7,6 @@ import sort.QuickSort;
 import java.util.Arrays;
 
 import static utils.SortUtil.*;
-import static utils.SortUtil.printSortTime;
 
 /**
  * Description : HeapSortTest Example

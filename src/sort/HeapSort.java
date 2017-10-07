@@ -2,9 +2,7 @@ package sort;
 
 import domain.MaxHeap;
 
-import java.util.Arrays;
-
-import static utils.SortUtil.*;
+import static utils.SortUtil.swap;
 
 /** @Description 堆排序 @Author matrix[xhyrzldf@foxmail.com] @Date 2017/9/26 22:53 */
 @SuppressWarnings("WeakerAccess")

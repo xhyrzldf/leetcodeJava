@@ -5,9 +5,7 @@ import sort.QuickSort;
 
 import java.util.Arrays;
 
-import static utils.SortUtil.getRandomArray;
-import static utils.SortUtil.getRandomArrayNearlyOrder;
-import static utils.SortUtil.printSortTime;
+import static utils.SortUtil.*;
 
 /**
  * Description : 快速排序测试用例
