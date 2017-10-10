@@ -16,7 +16,7 @@ package string;
  */
 public class ReverseVowelsOfAString_345 {
   public static void main(String[] args) {
-    String input = "OE";
+    String input = "hello";
     System.out.println(reverseVowels01(input));
   }
 
@@ -63,16 +63,18 @@ public class ReverseVowelsOfAString_345 {
     char[] chars = s.toCharArray();
     int i = 0;
     int j = chars.length - 1;
-    char temp;
 
     while (i < j) {
       while (!vowel[chars[i]] && i < j) i++;
       while (!vowel[chars[j]] && i < j) j--;
-      chars[i] ^= chars[j];
-      chars[j] ^= chars[i];
-      chars[i++] ^= chars[j--];
+      if (chars[i] != chars[j]) {
+        chars[i] ^= chars[j];
+        chars[j] ^= chars[i];
+        chars[i] ^= chars[j];
+      }
+      i++;
+      j--;
     }
-
     return new String(chars);
   }
 
@@ -89,7 +91,7 @@ public class ReverseVowelsOfAString_345 {
    * @param s
    * @return
    */
-  public static boolean arrayContains01(char s) {
+  private static boolean arrayContains01(char s) {
     s |= 32;
     return s == 'a' || s == 'e' || s == 'i' || s == 'o' || s == 'u';
   }
