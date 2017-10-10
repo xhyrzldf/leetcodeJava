@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 你的算法应该拥有线性的复杂度,也就是说为O(n)或者O(1),你能不使用额外内存的空间下解决这个问题咩?
  */
 @SuppressWarnings("unused")
-public class SingleNumber {
+public class SingleNumber_136 {
 
   /**
    * 这是使用异或操作的解法得
@@ -35,7 +35,7 @@ public class SingleNumber {
    */
   public int singleNumber02(int[] A) {
     if (A == null) return 0;
-    Arrays.sort(A);
+    Arrays.sort(A);//nlogn 级别的排序,这里省略具体实现,使用类库中的
     if (A[0] != A[1]) return A[0]; // 这里使用将A里的元素与前面的元素作比较,如果不同就返回该元素,这一行是对第一条数据特殊处理
     for (int i = 1; i < A.length; i++) {
       if (A[i] != A[i - 1]) return A[i];
