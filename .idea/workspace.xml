@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="更新了题号和readme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/SortColors_75.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/array/SingleNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/array/TwoSum.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/algorithm/Fibonacci.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/algorithm/Fibonacci.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/algorithm/findTheNThLargestElementInTheArray.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/algorithm/findTheNThLargestElementInTheArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/domain/MaxHeap.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/domain/MaxHeap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/domain/PrintableMaxHeap.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/domain/PrintableMaxHeap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/sort/BucketSort.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/sort/BucketSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/sort/HeapSort.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/sort/HeapSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/sort/InsertionSort.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/sort/InsertionSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/sort/MergeSort.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/sort/MergeSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/utils/SortUtil.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/utils/SortUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -25,18 +31,40 @@
       <file leaf-file-name="MoveZeros_287.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array/MoveZeros_287.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="319">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSum_1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/TwoSum_1.java">
+      <file leaf-file-name="SortUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/SortUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="4144">
+              <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSortedArray_88.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/MergeSortedArray_88.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -56,8 +84,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="42" />
+              <first_editor relative-caret-position="389">
+                <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -85,21 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BucketSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/BucketSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BucketSortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/BucketSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="375">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,25 +125,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnionFind.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/UnionFind.java">
+      <file leaf-file-name="BucketSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sort/BucketSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1792">
-              <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state relative-caret-position="455">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnionFindTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/UnionFindTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -201,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/array/TwoSumII_167.java" />
         <option value="$PROJECT_DIR$/src/array/SingleNumber_136.java" />
         <option value="$PROJECT_DIR$/src/array/SortColors_75.java" />
+        <option value="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -1000,7 +1006,7 @@
       <workItem from="1507370009830" duration="2543000" />
       <workItem from="1507621280247" duration="695000" />
       <workItem from="1507622014229" duration="1792000" />
-      <workItem from="1507624273535" duration="2752000" />
+      <workItem from="1507624273535" duration="5108000" />
     </task>
     <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
       <created>1505576001334</created>
@@ -1212,11 +1218,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507624844614</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="更新了75.sortColors">
+      <created>1507628178358</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1507628178358</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74416000" />
+    <option name="totallyTimeSpent" value="76772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1319,7 +1332,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新了使用快速排序中思路 寻找到数组中第几大的元素" />
     <MESSAGE value="添加了domain包,更新了最大堆和控制台打印最大堆的数据结构,更新了堆排序,与堆排序构建的heapify优化" />
     <MESSAGE value="优化工具类" />
     <MESSAGE value="增加了原地堆排序" />
@@ -1344,7 +1356,8 @@
     <MESSAGE value="readme update" />
     <MESSAGE value="更新了TwoSumII_167" />
     <MESSAGE value="更新了题号和readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了题号和readme" />
+    <MESSAGE value="更新了75.sortColors" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了75.sortColors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1360,13 +1373,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sort/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/BucketSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1575,16 +1581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SortUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/MaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1600,14 +1596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1932">
           <caret line="110" column="25" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1683,16 +1671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/BucketSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/UnionFindTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1701,14 +1679,6 @@
             <element signature="e#238#239#0" expanded="true" />
             <element signature="e#263#264#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/MoveZeros_287.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1760,11 +1730,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/MoveZeros_287.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/BucketSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/SortUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4144">
+          <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/MergeSortedArray_88.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="42" />
+          <first_editor relative-caret-position="389">
+            <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />
