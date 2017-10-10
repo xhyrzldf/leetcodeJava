@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/ReverseString_344.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -22,18 +22,18 @@
       <file leaf-file-name="ReverseString_344.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/ReverseString_344.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="308">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidPalindrome_125.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/ValidPalindrome_125.java">
+      <file leaf-file-name="ReverseVowelsOfAString_345.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="420">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -43,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="336">
-                <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <first_editor relative-caret-position="361">
+                <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -126,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
         <option value="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseString_344.java" />
+        <option value="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -297,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseString_344">
+  <component name="RunManager" selected="Application.ReverseVowelsOfAString_345">
     <configuration name="HeapSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -317,14 +318,14 @@
       <module name="leetcodeJava" />
       <envs />
     </configuration>
-    <configuration name="MoveZeros_287" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseString_344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="array.MoveZeros_287" />
+      <option name="MAIN_CLASS_NAME" value="string.ReverseString_344" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -336,14 +337,14 @@
       <module name="leetcodeJava" />
       <envs />
     </configuration>
-    <configuration name="ReverseString_344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseVowelsOfAString_345" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="string.ReverseString_344" />
+      <option name="MAIN_CLASS_NAME" value="string.ReverseVowelsOfAString_345" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -846,19 +847,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MoveZeros_287" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HeapSortTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.UnionFindTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SortColors_75" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ReverseString_344" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HeapSortTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.UnionFindTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SortColors_75" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReverseString_344" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReverseVowelsOfAString_345" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ReverseString_344" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SortColors_75" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UnionFindTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HeapSortTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MoveZeros_287" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReverseVowelsOfAString_345" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReverseString_344" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SortColors_75" />
+        <item index="3" class="java.lang.String" itemvalue="Application.UnionFindTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HeapSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -902,7 +903,7 @@
       <workItem from="1507621280247" duration="695000" />
       <workItem from="1507622014229" duration="1792000" />
       <workItem from="1507624273535" duration="5551000" />
-      <workItem from="1507649666343" duration="2616000" />
+      <workItem from="1507649666343" duration="6356000" />
     </task>
     <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
       <created>1505576001334</created>
@@ -1142,11 +1143,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507650038241</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="update 344.ReverseString">
+      <created>1507652299021</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1507652299021</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79831000" />
+    <option name="totallyTimeSpent" value="83571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1172,7 +1180,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22546972" sideWeight="0.5037675" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1249,7 +1257,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="opt yo~" />
     <MESSAGE value="更新moveZeroes" />
     <MESSAGE value="修正与更新了two sum" />
     <MESSAGE value="fibonacci update" />
@@ -1274,14 +1281,15 @@
     <MESSAGE value="MergeSortedArray_88" />
     <MESSAGE value="MergeSortedArray_88 注释" />
     <MESSAGE value="update 125ValidPalindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 125ValidPalindrome" />
+    <MESSAGE value="update 344.ReverseString" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 344.ReverseString" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="17" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1290,16 +1298,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="364">
-            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/SortUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -1679,16 +1677,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/ValidPalindrome_125.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="532">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/ReverseString_344.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="308">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1696,8 +1702,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <first_editor relative-caret-position="361">
+            <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
             <folding />
           </first_editor>
           <second_editor />
