@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/algorithm/Fibonacci.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/algorithm/Fibonacci.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/algorithm/findTheNThLargestElementInTheArray.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/algorithm/findTheNThLargestElementInTheArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/domain/MaxHeap.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/domain/MaxHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/domain/PrintableMaxHeap.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/domain/PrintableMaxHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/sort/BucketSort.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/sort/BucketSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/sort/HeapSort.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/sort/HeapSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/sort/InsertionSort.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/sort/InsertionSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/sort/MergeSort.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/sort/MergeSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leetcodeJava/utils/SortUtil.class" afterPath="$PROJECT_DIR$/out/production/leetcodeJava/utils/SortUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" afterPath="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSortedArray_88.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MergeSortedArray_88.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/array/MergeSortedArray_88.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="308">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -80,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -206,8 +196,8 @@
         <option value="$PROJECT_DIR$/src/array/TwoSumII_167.java" />
         <option value="$PROJECT_DIR$/src/array/SingleNumber_136.java" />
         <option value="$PROJECT_DIR$/src/array/SortColors_75.java" />
-        <option value="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
       </list>
     </option>
   </component>
@@ -1006,7 +996,7 @@
       <workItem from="1507370009830" duration="2543000" />
       <workItem from="1507621280247" duration="695000" />
       <workItem from="1507622014229" duration="1792000" />
-      <workItem from="1507624273535" duration="5108000" />
+      <workItem from="1507624273535" duration="5517000" />
     </task>
     <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
       <created>1505576001334</created>
@@ -1225,11 +1215,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507628178358</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="MergeSortedArray_88">
+      <created>1507631106394</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1507631106394</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76772000" />
+    <option name="totallyTimeSpent" value="77181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1332,7 +1329,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加了domain包,更新了最大堆和控制台打印最大堆的数据结构,更新了堆排序,与堆排序构建的heapify优化" />
     <MESSAGE value="优化工具类" />
     <MESSAGE value="增加了原地堆排序" />
     <MESSAGE value="opt yo~" />
@@ -1357,7 +1353,8 @@
     <MESSAGE value="更新了TwoSumII_167" />
     <MESSAGE value="更新了题号和readme" />
     <MESSAGE value="更新了75.sortColors" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了75.sortColors" />
+    <MESSAGE value="MergeSortedArray_88" />
+    <option name="LAST_COMMIT_MESSAGE" value="MergeSortedArray_88" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1766,14 +1763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/MergeSortedArray_88.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1782,6 +1771,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/MergeSortedArray_88.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
