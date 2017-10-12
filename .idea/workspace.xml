@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" afterPath="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/ReverseString_344.java" afterPath="$PROJECT_DIR$/src/string/ReverseString_344.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +18,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReverseString_344.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReverseString_344.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/ReverseString_344.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
-              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="952">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseVowelsOfAString_345.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseVowelsOfAString_345.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-135">
@@ -176,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/array/SingleNumber_136.java" />
         <option value="$PROJECT_DIR$/src/array/SortColors_75.java" />
         <option value="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
-        <option value="$PROJECT_DIR$/src/string/ReverseString_344.java" />
         <option value="$PROJECT_DIR$/src/array/ContainerWithMostWater_11.java" />
         <option value="$PROJECT_DIR$/src/array/MinimumSizeSubarraySum_209.java" />
         <option value="$PROJECT_DIR$/src/array/TwoSum_01.java" />
@@ -187,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
         <option value="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
+        <option value="$PROJECT_DIR$/src/string/ReverseString_344.java" />
       </list>
     </option>
   </component>
@@ -974,7 +974,7 @@
       <workItem from="1507649666343" duration="13187000" />
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
-      <workItem from="1507824217283" duration="17779000" />
+      <workItem from="1507824217283" duration="17983000" />
     </task>
     <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
       <created>1505576001334</created>
@@ -1305,11 +1305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507842010035</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update 345 translate">
+      <created>1507842290094</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1507842290094</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121011000" />
+    <option name="totallyTimeSpent" value="121215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1412,7 +1419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="归并排序测试用例,注释opt" />
     <MESSAGE value="快速排序测试用例,注释opt" />
     <MESSAGE value="选择排序测试用例,注释opt" />
     <MESSAGE value="注释优化" />
@@ -1437,7 +1443,8 @@
     <MESSAGE value="update string template practise" />
     <MESSAGE value="update string template practise1" />
     <MESSAGE value="update 125 translate" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 125 translate" />
+    <MESSAGE value="update 345 translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 345 translate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1758,14 +1765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/ReverseString_344.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -1823,6 +1822,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
           <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/ReverseString_344.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
