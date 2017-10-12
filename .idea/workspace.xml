@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" afterPath="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" afterPath="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindAllAnagramsInAString_438.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FindAllAnagramsInAString_438.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="321">
+              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumWindowSubstring_76.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimumWindowSubstring_76.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="112">
               <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
             </state>
@@ -183,12 +183,12 @@
         <option value="$PROJECT_DIR$/src/array/TwoSum_01.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
-        <option value="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" />
         <option value="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
         <option value="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseString_344.java" />
         <option value="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
+        <option value="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" />
       </list>
     </option>
   </component>
@@ -976,14 +976,7 @@
       <workItem from="1507649666343" duration="13187000" />
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
-      <workItem from="1507824217283" duration="18661000" />
-    </task>
-    <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
-      <created>1505576001334</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1505576001334</updated>
+      <workItem from="1507824217283" duration="18917000" />
     </task>
     <task id="LOCAL-00002" summary="增加了桶排序">
       <created>1505576039713</created>
@@ -1321,11 +1314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507842494011</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="update 76 translate">
+      <created>1507843172187</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1507843172190</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121893000" />
+    <option name="totallyTimeSpent" value="122149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1428,7 +1428,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="选择排序测试用例,注释opt" />
     <MESSAGE value="注释优化" />
     <MESSAGE value="添加并查集的测试用例" />
     <MESSAGE value="Google Code Style Opt" />
@@ -1453,7 +1452,8 @@
     <MESSAGE value="update 125 translate" />
     <MESSAGE value="update 345 translate" />
     <MESSAGE value="update 344 translate" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 344 translate" />
+    <MESSAGE value="update 76 translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 76 translate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1793,16 +1793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -1837,9 +1827,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="112">
           <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
