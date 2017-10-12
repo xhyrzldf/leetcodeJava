@@ -22,45 +22,16 @@ public class MinimumWindowSubstring_76 {
     }
 
     public static String minWindow(String s, String t) {
-        int hash[] = new int[128];
-        int left = 0, right = 0, count = t.length();
-        String minString = null;
-        for (char c : t.toCharArray()) {
-            hash[c]++;
-        }
-
-        while (left < s.length()) {
-            if (hash[s.charAt(left)] >= 1) {
-                right = left;
-
-                while (count != 0 && right < s.length()) {
-                    if (hash[s.charAt(right)] >= 1) {
-                        count--;
-                    }
-
-                    hash[s.charAt(right)]--;
-                    right++;
-                }
-
-                if (count == 0 && (minString == null || right - left < minString.length()))
-                    minString = s.substring(left, right);
-
-                count = t.length();
-
-                for (char c : t.toCharArray()) {
-                    hash[c] = 0;
-                }
-
-                for (char c : t.toCharArray()) {
-                    hash[c]++;
-                }
-
-
+        int[] map = new int[128];
+        for (char c : t.toCharArray()) map[c]++;
+        int counter = t.length(), begin = 0, end = 0, d = Integer.MAX_VALUE, head = 0;
+        while (end < s.length()) {
+            if (map[s.charAt(end++)]-- > 0) counter--; //in t
+            while (counter == 0) { //valid
+                if (end - begin < d) d = end - (head = begin);
+                if (map[s.charAt(begin++)]++ == 0) counter++;  //make it invalid
             }
-            left++;
         }
-        return minString == null ? "" : minString;
-
-
+        return d == Integer.MAX_VALUE ? "" : s.substring(head, head + d);
     }
 }

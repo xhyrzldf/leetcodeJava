@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" afterPath="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" afterPath="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,14 +44,14 @@
       <file leaf-file-name="LongestSubstringWithAtMostTwoDistinctCharacters_159.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="566">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -63,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumWindowSubstring_76.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MinimumWindowSubstring_76.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="433">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -82,6 +83,16 @@
                 <element signature="e#23072#23073#0" expanded="true" />
                 <element signature="e#23112#23113#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters_03.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="959">
+              <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,13 +174,13 @@
         <option value="$PROJECT_DIR$/src/string/ReverseString_344.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
         <option value="$PROJECT_DIR$/src/array/ContainerWithMostWater_11.java" />
-        <option value="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
         <option value="$PROJECT_DIR$/src/array/MinimumSizeSubarraySum_209.java" />
         <option value="$PROJECT_DIR$/src/array/TwoSum_01.java" />
         <option value="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" />
-        <option value="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
         <option value="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
+        <option value="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
       </list>
     </option>
   </component>
@@ -346,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringWithAtMostTwoDistinctCharacters_159">
+  <component name="RunManager" selected="Application.MinimumWindowSubstring_76">
     <configuration name="ContainerWithMostWater_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -903,8 +914,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LongestSubstringWithAtMostTwoDistinctCharacters_159" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinimumWindowSubstring_76" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MinimumWindowSubstring_76" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LongestSubstringWithAtMostTwoDistinctCharacters_159" />
         <item index="2" class="java.lang.String" itemvalue="Application.FindAllAnagramsInAString_438" />
         <item index="3" class="java.lang.String" itemvalue="Application.ContainerWithMostWater_11" />
         <item index="4" class="java.lang.String" itemvalue="Application.ReverseVowelsOfAString_345" />
@@ -954,7 +965,7 @@
       <workItem from="1507649666343" duration="13187000" />
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
-      <workItem from="1507824217283" duration="11792000" />
+      <workItem from="1507824217283" duration="13227000" />
     </task>
     <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
       <created>1505576001334</created>
@@ -1250,11 +1261,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507835699828</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="update readme color">
+      <created>1507836291085</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1507836291085</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115024000" />
+    <option name="totallyTimeSpent" value="116459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1270,7 +1288,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26564217" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32592592" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32508072" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1281,7 +1299,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22546972" sideWeight="0.5037675" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863548" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39827773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1389,7 +1407,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="49" />
+      <option name="time" value="51" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1692,14 +1710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1316">
@@ -1727,14 +1737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -1753,14 +1755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1769,6 +1763,30 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="959">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
