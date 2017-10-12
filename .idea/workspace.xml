@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" afterPath="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" afterPath="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +29,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ReverseVowelsOfAString_345.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FindAllAnagramsInAString_438.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestSubstringWithAtMostTwoDistinctCharacters_159.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestSubstringWithAtMostTwoDistinctCharacters_159.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
               <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidPalindrome_125.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/ValidPalindrome_125.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -156,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/array/SingleNumber_136.java" />
         <option value="$PROJECT_DIR$/src/array/SortColors_75.java" />
         <option value="$PROJECT_DIR$/src/array/MergeSortedArray_88.java" />
-        <option value="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseString_344.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
         <option value="$PROJECT_DIR$/src/array/ContainerWithMostWater_11.java" />
@@ -167,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
         <option value="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" />
         <option value="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
+        <option value="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" />
       </list>
     </option>
   </component>
@@ -954,7 +975,7 @@
       <workItem from="1507649666343" duration="13187000" />
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
-      <workItem from="1507824217283" duration="17260000" />
+      <workItem from="1507824217283" duration="17495000" />
     </task>
     <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
       <created>1505576001334</created>
@@ -1271,11 +1292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507841001880</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update string template practise1">
+      <created>1507841771661</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1507841771661</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120492000" />
+    <option name="totallyTimeSpent" value="120727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1378,7 +1406,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="测试用例添加" />
     <MESSAGE value="选择排序测试用例" />
     <MESSAGE value="归并排序测试用例,注释opt" />
     <MESSAGE value="快速排序测试用例,注释opt" />
@@ -1403,7 +1430,8 @@
     <MESSAGE value="update readme color" />
     <MESSAGE value="update string template" />
     <MESSAGE value="update string template practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="update string template practise" />
+    <MESSAGE value="update string template practise1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update string template practise1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1678,14 +1706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/ValidPalindrome_125.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://H:/Java/jdk1.8.0_112/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33096">
@@ -1709,14 +1729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="78" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1789,6 +1801,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/ValidPalindrome_125.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
