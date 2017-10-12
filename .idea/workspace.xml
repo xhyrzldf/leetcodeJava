@@ -86,7 +86,7 @@
       <file leaf-file-name="MinimumWindowSubstring_76.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="461">
               <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
             </state>
@@ -97,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
-              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
                 <element signature="e#725#752#0" expanded="true" />
               </folding>
@@ -978,14 +978,7 @@
       <workItem from="1507649666343" duration="13187000" />
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
-      <workItem from="1507824217283" duration="19193000" />
-    </task>
-    <task id="LOCAL-00005" summary="更新了使用快速排序中思路 寻找到数组中第几大的元素">
-      <created>1506417878354</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1506417878354</updated>
+      <workItem from="1507824217283" duration="19215000" />
     </task>
     <task id="LOCAL-00006" summary="添加了domain包,更新了最大堆和控制台打印最大堆的数据结构,更新了堆排序,与堆排序构建的heapify优化">
       <created>1506442029225</created>
@@ -1323,11 +1316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507843639876</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="update 03 translate">
+      <created>1507843701541</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1507843701541</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122425000" />
+    <option name="totallyTimeSpent" value="122447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1811,14 +1811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1837,10 +1829,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
             <element signature="e#725#752#0" expanded="true" />
           </folding>

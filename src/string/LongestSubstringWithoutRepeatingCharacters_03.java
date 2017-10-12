@@ -29,6 +29,7 @@ package string;
  */
 @SuppressWarnings("unused")
 public class LongestSubstringWithoutRepeatingCharacters_03 {
+
   public int lengthOfLongestSubstring(String s) {
     int[] freq = new int[128];
     int begin = 0, end = 0, counter = 0, d = 0;
