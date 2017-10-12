@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="609">
-                <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <first_editor relative-caret-position="637">
+                <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -954,7 +954,7 @@
       <workItem from="1507649666343" duration="13187000" />
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
-      <workItem from="1507824217283" duration="11193000" />
+      <workItem from="1507824217283" duration="11792000" />
     </task>
     <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
       <created>1505576001334</created>
@@ -1243,11 +1243,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507835285978</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="update readme color">
+      <created>1507835699828</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1507835699828</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114425000" />
+    <option name="totallyTimeSpent" value="115024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1350,7 +1357,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="RemoveDuplicates" />
     <MESSAGE value="google style check" />
     <MESSAGE value="并查集更新" />
     <MESSAGE value="测试用例添加" />
@@ -1375,7 +1381,8 @@
     <MESSAGE value="update 209.MinimumSizeSubarraySum" />
     <MESSAGE value="update 438.FindAllAnagramsInAString" />
     <MESSAGE value="update 159.LongestSubstringWithAtMostTwoDistinctCharacters" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 159.LongestSubstringWithAtMostTwoDistinctCharacters" />
+    <MESSAGE value="update readme color" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1757,8 +1764,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="609">
-            <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <first_editor relative-caret-position="637">
+            <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
