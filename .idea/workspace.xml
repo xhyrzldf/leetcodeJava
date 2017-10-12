@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" afterPath="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" afterPath="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestSubstringWithAtMostTwoDistinctCharacters_159.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestSubstringWithAtMostTwoDistinctCharacters_159.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -93,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters_03.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters_03.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+            <state relative-caret-position="308">
+              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -182,13 +182,13 @@
         <option value="$PROJECT_DIR$/src/array/MinimumSizeSubarraySum_209.java" />
         <option value="$PROJECT_DIR$/src/array/TwoSum_01.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
         <option value="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseString_344.java" />
         <option value="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
         <option value="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" />
         <option value="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
+        <option value="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
       </list>
     </option>
   </component>
@@ -976,14 +976,7 @@
       <workItem from="1507649666343" duration="13187000" />
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
-      <workItem from="1507824217283" duration="18999000" />
-    </task>
-    <task id="LOCAL-00003" summary="文档">
-      <created>1505576100608</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1505576100608</updated>
+      <workItem from="1507824217283" duration="19130000" />
     </task>
     <task id="LOCAL-00004" summary="更新了双路快速排序与三路快速排序">
       <created>1506311911184</created>
@@ -1321,11 +1314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507843430232</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update 159 translate">
+      <created>1507843509547</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1507843509547</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122231000" />
+    <option name="totallyTimeSpent" value="122362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1428,7 +1428,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加并查集的测试用例" />
     <MESSAGE value="Google Code Style Opt" />
     <MESSAGE value="readme update" />
     <MESSAGE value="更新了TwoSumII_167" />
@@ -1453,7 +1452,8 @@
     <MESSAGE value="update 344 translate" />
     <MESSAGE value="update 76 translate" />
     <MESSAGE value="update 438 translate" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 438 translate" />
+    <MESSAGE value="update 159 translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 159 translate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1774,14 +1774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1839,6 +1831,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding />
         </state>
       </provider>
