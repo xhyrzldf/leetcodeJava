@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -57,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="644">
-                <caret line="23" column="120" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="120" />
+              <first_editor relative-caret-position="609">
+                <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -957,7 +954,7 @@
       <workItem from="1507649666343" duration="13187000" />
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
-      <workItem from="1507824217283" duration="10776000" />
+      <workItem from="1507824217283" duration="11193000" />
     </task>
     <task id="LOCAL-00001" summary="增加了桶排序,调整了排序工具类">
       <created>1505576001334</created>
@@ -1239,11 +1236,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507825024204</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update 159.LongestSubstringWithAtMostTwoDistinctCharacters">
+      <created>1507835285978</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1507835285978</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114008000" />
+    <option name="totallyTimeSpent" value="114425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1346,7 +1350,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="题号增加" />
     <MESSAGE value="RemoveDuplicates" />
     <MESSAGE value="google style check" />
     <MESSAGE value="并查集更新" />
@@ -1371,7 +1374,8 @@
     <MESSAGE value="update 03.lengthOfLongestSubstring" />
     <MESSAGE value="update 209.MinimumSizeSubarraySum" />
     <MESSAGE value="update 438.FindAllAnagramsInAString" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 438.FindAllAnagramsInAString" />
+    <MESSAGE value="update 159.LongestSubstringWithAtMostTwoDistinctCharacters" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 159.LongestSubstringWithAtMostTwoDistinctCharacters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1753,8 +1757,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="644">
-            <caret line="23" column="120" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="120" />
+          <first_editor relative-caret-position="609">
+            <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />
