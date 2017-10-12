@@ -10,6 +10,14 @@ package string;
  *
  * <p>Note: The vowels does not include the letter "y".
  *
+ * <p>描述:编写一个函数，它以字符串作为输入，只返回字符串的元音。
+ *
+ * <p>示例1:给定s = " hello "，返回" holle "。
+ *
+ * <p>示例2:给定s = " leetcode "，返回" leotcede"。
+ *
+ * <p>注:元音不包括字母“y”。
+ *
  * <p>Author : Matrix [xhyrzldf@foxmail.com]
  *
  * <p>Date : 2017/10/11 0:22
@@ -26,7 +34,6 @@ public class ReverseVowelsOfAString_345 {
     char[] chars = s.toCharArray();
     int i = 0;
     int j = chars.length - 1;
-    char temp;
 
     while (i < j) {
       while (!arrayContains01(chars[i]) && i < j) i++;
