@@ -24,3 +24,5 @@
 - 2017-10-13 更新了 
     - ![#FFCC00](https://placehold.it/15/ffcc00/000000?text=+) `438.FindAllAnagramsInAString`
     - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `159.LongestSubstringWithAtMostTwoDistinctCharacters`
+- 2017-10-14 更新了
+    - ![#228B22](https://placehold.it/15/228B22/000000?text=+) `686.RepeatedStringMatch`

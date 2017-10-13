@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/RepeatedStringMatch_686.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepeatedStringMatch_686.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="391">
+                <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepeatedStringMatch_686.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/RepeatedStringMatch_686.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
@@ -189,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/array/ContainerWithMostWater_11.java" />
         <option value="$PROJECT_DIR$/src/array/MinimumSizeSubarraySum_209.java" />
         <option value="$PROJECT_DIR$/src/array/TwoSum_01.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/string/ValidPalindrome_125.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseString_344.java" />
@@ -198,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
         <option value="$PROJECT_DIR$/src/string/MinimumWindowSubstring_76.java" />
         <option value="$PROJECT_DIR$/src/string/RepeatedStringMatch_686.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -986,14 +998,7 @@
       <workItem from="1507728604840" duration="7790000" />
       <workItem from="1507800116504" duration="5040000" />
       <workItem from="1507824217283" duration="20628000" />
-      <workItem from="1507903455883" duration="5946000" />
-    </task>
-    <task id="LOCAL-00007" summary="优化工具类">
-      <created>1506442125784</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1506442125784</updated>
+      <workItem from="1507903455883" duration="6063000" />
     </task>
     <task id="LOCAL-00008" summary="增加了原地堆排序">
       <created>1506484326812</created>
@@ -1331,11 +1336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507843727689</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="update 686.RepeatedStringMatch">
+      <created>1507912027854</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1507912027855</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129806000" />
+    <option name="totallyTimeSpent" value="129923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1438,7 +1450,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新了TwoSumII_167" />
     <MESSAGE value="更新了题号和readme" />
     <MESSAGE value="更新了75.sortColors" />
     <MESSAGE value="MergeSortedArray_88" />
@@ -1463,7 +1474,8 @@
     <MESSAGE value="update 159 translate" />
     <MESSAGE value="update 03 translate" />
     <MESSAGE value="update 03 style" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 03 style" />
+    <MESSAGE value="update 686.RepeatedStringMatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 686.RepeatedStringMatch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1756,17 +1768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="644">
-            <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -1851,6 +1852,17 @@
         <state relative-caret-position="371">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
