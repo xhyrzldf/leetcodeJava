@@ -8,23 +8,41 @@ import java.util.List;
  * anagrams in s. Strings consists of lowercase English letters only and the length of both strings
  * s and p will not be larger than 20,100. The order of output does not matter.
  *
+ * <p>
+ *
  * <p>Example 1: Input: s: "cbaebabacd" p: "abc"
  *
+ * <p>
+ *
  * <p>Output: [0, 6]
+ *
+ * <p>
  *
  * <p>Explanation: The substring with start index = 0 is "cba", which is an anagram of "abc". The
  * substring with start index = 6 is "bac", which is an anagram of "abc".
  *
+ * <p>
+ *
  * <p>描述:给定一个字符串s和一个非空字符串p，查找所有p 的异序词(即字符元素相同,顺序可以不同)的起始索引。
  * 字符串由小写的英文字母组成，字符串s的长度和p的长度不会大于20,100,输出的顺序无关紧要。
  *
+ * <p>
+ *
  * <p>示例1:输入:s:“cbaebabacd” p:“abc”
+ *
+ * <p>
  *
  * <p>输出:(0,6)
  *
+ * <p>
+ *
  * <p>解释: 下标= 0开始的子字符串是“cba”,这是一种“abc”的异序词。带有start index = 6的子字符串是“bac”，它也是“abc”的一个异序词。
  *
+ * <p>
+ *
  * <p>Author : Matrix [xhyrzldf@foxmail.com]
+ *
+ * <p>
  *
  * <p>Date : 2017/10/11 23:25
  */
@@ -40,8 +58,8 @@ public class FindAllAnagramsInAString_438 {
 
     // 0.初始化一些变量,subString为[begin,end）
     List<Integer> list = new ArrayList<>();
-    // null和空的判断,简单的写一下
-    if (s == null || s.length() == 0 || p == null || p.length() == 0) return list;
+    // null和空的判断,简单的写一下 null
+    if (s == null || s.length() == 0 || p ==null|| p.length() == 0) return list;
     int begin = 0, end = 0, counter = p.length();
     int[] freq = new int[128];
     for (char c : p.toCharArray()) freq[c]++;
@@ -57,7 +75,7 @@ public class FindAllAnagramsInAString_438 {
       // 有可能是列俗语abdc这种字符串,长度已经大于p了,但是counter也为0,所以这里的计数器修正要变化一下
       // counter变化的条件就是begin kick掉的元素是属于p字符串的,特征是freq频率>=0 因为默认至少为1,所以-1了之后至少为0
       if (counter == 0) list.add(begin);
-      if (end - begin == p.length()) if (freq[s.charAt(begin++)]++ >= 0) counter++;
+      if (end - begin == p.length() && freq[s.charAt(begin++)]++ >= 0) counter++;
     }
     // 3.返回结果
     return list;

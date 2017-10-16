@@ -143,7 +143,7 @@ public class SortUtil {
     checkArrayIsSortedAndPrintTimes(array, sortName, start, end);
   }
 
-  private static boolean isSort(Integer[] array) {
+  public static boolean isSort(Integer[] array) {
     for (int i = 0; i < array.length - 1; i++) {
       if (array[i] > array[i + 1]) {
         return false;

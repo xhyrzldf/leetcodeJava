@@ -11,9 +11,9 @@ import static utils.SortUtil.*;
 /**
  * Description : HeapSortTest Example
  *
- * <p>@Author : Matrix [xhyrzldf@foxmail.com]
- *
  * <p>Date : 2017/10/7 18:02
+ *
+ * <p>@author : Matrix [xhyrzldf@foxmail.com]
  */
 public class HeapSortTest {
 
@@ -39,6 +39,7 @@ public class HeapSortTest {
     int[] arr04 = Arrays.copyOf(arr, n);
     Integer[] arr05 = intArrayToInetegerArray(Arrays.copyOf(arr, n));
     int[] arr06 = Arrays.copyOf(arr, n);
+    int[] arr07 = Arrays.copyOf(arr, n);
 
     System.out.printf("\nRandom array length is : %d , \t randomRange(0,%d)\n", n, n);
     printSortTime(arr, MergeSort::mergeSort, "mergeSort");
@@ -47,6 +48,7 @@ public class HeapSortTest {
     printSortTime(arr04, HeapSort::heapSort, "HeapSort");
     printSortTimeObj(arr05, HeapSort::heapSort2, "HeapSort2");
     printSortTime(arr06, HeapSort::heapSort3, "HeapSort3");
+    printSortTime(arr07, Arrays::sort, "JDK SORT");
 
     arr = getRandomArrayNearlyOrder(n, s);
     arr02 = Arrays.copyOf(arr, n);
@@ -54,6 +56,7 @@ public class HeapSortTest {
     arr04 = Arrays.copyOf(arr, n);
     arr05 = intArrayToInetegerArray(Arrays.copyOf(arr, n));
     arr06 = Arrays.copyOf(arr, n);
+    arr07 = Arrays.copyOf(arr, n);
 
     System.out.printf("\nRandom array NearlyOrder length is : %d , \t swaptimes(0,%d)\n", n, s);
     printSortTime(arr, MergeSort::mergeSort, "mergeSort");
@@ -62,6 +65,7 @@ public class HeapSortTest {
     printSortTime(arr04, HeapSort::heapSort, "HeapSort");
     printSortTimeObj(arr05, HeapSort::heapSort2, "HeapSort2");
     printSortTime(arr06, HeapSort::heapSort3, "HeapSort3");
+    printSortTime(arr07, Arrays::sort, "JDK SORT");
 
     arr = getRandomArray(n, r);
     arr02 = Arrays.copyOf(arr, n);
@@ -69,6 +73,7 @@ public class HeapSortTest {
     arr04 = Arrays.copyOf(arr, n);
     arr05 = intArrayToInetegerArray(Arrays.copyOf(arr, n));
     arr06 = Arrays.copyOf(arr, n);
+    arr07 = Arrays.copyOf(arr, n);
 
     System.out.printf("\nRandom array length is : %d , \t randomRange(0,%d)\n", n, r);
     printSortTime(arr, MergeSort::mergeSort, "mergeSort");
@@ -77,5 +82,7 @@ public class HeapSortTest {
     printSortTime(arr04, HeapSort::heapSort, "HeapSort");
     printSortTimeObj(arr05, HeapSort::heapSort2, "HeapSort2");
     printSortTime(arr06, HeapSort::heapSort3, "HeapSort3");
+    printSortTime(arr07, Arrays::sort, "JDK SORT");
+
   }
 }
