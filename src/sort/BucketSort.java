@@ -16,7 +16,7 @@ public class BucketSort {
         maxIndex = i;
       }
     }
-    // 构建出这样一个桶数组,长度为最大值+1
+    // 构建出这样一个桶数组,长度为最大值+12
     int[] bucketArray = new int[array[maxIndex] + 1];
     // 统计原数组,将统计到的数字放到桶数组里
     for (int anArray : array) {
