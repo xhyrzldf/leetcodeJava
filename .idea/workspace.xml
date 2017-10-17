@@ -4,9 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="update something">
+    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sort/BucketSort.java" afterPath="$PROJECT_DIR$/src/sort/BucketSort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +53,8 @@
       <file leaf-file-name="FindAllAnagramsInAString_438.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1739">
-              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="451">
+              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -221,12 +220,6 @@
               <item name="leetcodeJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcodeJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcodeJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -238,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="469" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -894,14 +887,7 @@
       <workItem from="1508157792501" duration="8698000" />
       <workItem from="1508169629069" duration="366000" />
       <workItem from="1508170042838" duration="814000" />
-      <workItem from="1508210741505" duration="75000" />
-    </task>
-    <task id="LOCAL-00011" summary="修正与更新了two sum">
-      <created>1506781692868</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1506781692869</updated>
+      <workItem from="1508210741505" duration="1522000" />
     </task>
     <task id="LOCAL-00012" summary="fibonacci update">
       <created>1507188417348</created>
@@ -1239,11 +1225,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508170631788</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="update something">
+      <created>1508210898531</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1508210898532</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147640000" />
+    <option name="totallyTimeSpent" value="149087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1047" extended-state="0" />
@@ -1743,8 +1736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1739">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="451">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
           <folding />
         </state>
       </provider>
