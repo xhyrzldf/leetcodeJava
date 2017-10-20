@@ -77,7 +77,7 @@ public class FindAllAnagramsInAString_438 {
       if (counter == 0) list.add(begin);
       if (end - begin == p.length() && freq[s.charAt(begin++)]++ >= 0) counter++;
     }
-    // 3.返回结果
+    // 3.返回结果.
     return list;
   }
 
