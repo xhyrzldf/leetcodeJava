@@ -4,16 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="update something">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring_05.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/Fibonacci.java" afterPath="$PROJECT_DIR$/src/algorithm/Fibonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" afterPath="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" afterPath="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" afterPath="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring_05.java" afterPath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring_05.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,22 +67,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestPalindromicSubstring_05.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LongestPalindromicSubstring_05.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/LongestPalindromicSubstring_05.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="434">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
+              <first_editor relative-caret-position="392">
+                <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -229,8 +222,8 @@
         <option value="$PROJECT_DIR$/src/algorithm/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/string/FindAllAnagramsInAString_438.java" />
         <option value="$PROJECT_DIR$/src/string/ReverseVowelsOfAString_345.java" />
-        <option value="$PROJECT_DIR$/src/string/LongestPalindromicSubstring_05.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/string/LongestPalindromicSubstring_05.java" />
       </list>
     </option>
   </component>
@@ -991,14 +984,7 @@
       <workItem from="1508806588375" duration="256000" />
       <workItem from="1508806852914" duration="1266000" />
       <workItem from="1508891422366" duration="5564000" />
-      <workItem from="1508988185364" duration="8143000" />
-    </task>
-    <task id="LOCAL-00014" summary="moveZero 287">
-      <created>1507195466290</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1507195466290</updated>
+      <workItem from="1508988185364" duration="8747000" />
     </task>
     <task id="LOCAL-00015" summary="题号增加">
       <created>1507195548293</created>
@@ -1336,11 +1322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508500222344</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="update  05.LongestPalindromicSubstring">
+      <created>1509010009758</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1509010009762</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165070000" />
+    <option name="totallyTimeSpent" value="165674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1444,7 +1437,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergeSortedArray_88 注释" />
     <MESSAGE value="update 125ValidPalindrome" />
     <MESSAGE value="update 344.ReverseString" />
     <MESSAGE value="update 345.ReverseVowelsOfAString" />
@@ -1469,7 +1461,8 @@
     <MESSAGE value="update 686.RepeatedStringMatch readme" />
     <MESSAGE value="update 459.RepeatedSubstringPattern" />
     <MESSAGE value="update something" />
-    <option name="LAST_COMMIT_MESSAGE" value="update something" />
+    <MESSAGE value="update  05.LongestPalindromicSubstring" />
+    <option name="LAST_COMMIT_MESSAGE" value="update  05.LongestPalindromicSubstring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1906,22 +1899,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/LongestPalindromicSubstring_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
+          <first_editor relative-caret-position="392">
+            <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/LongestPalindromicSubstring_05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
