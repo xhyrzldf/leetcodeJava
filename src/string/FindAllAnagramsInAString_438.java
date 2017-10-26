@@ -48,7 +48,7 @@ import java.util.List;
  */
 public class FindAllAnagramsInAString_438 {
   public static void main(String[] args) {
-    String s = "cbaebabacd";
+    String s = "dabc";
     String p = "abc";
 
     System.out.println(findAnagrams(s, p).toString());
@@ -72,7 +72,7 @@ public class FindAllAnagramsInAString_438 {
       // 2-1,当counter == 0 的时候,意味着当前子串是符合条件的,加入list集合
       // 2-2,修正计数器,这里有点变化,这里不能直接在while里修正,因为要保证子串里所有的元素都要是p子串中的
       // 因此修正步骤要先判断,如果当前子串的长度等于了p的长度,那么就要进行修正了,因为counter==0的情况下
-      // 有可能是列俗语abdc这种字符串,长度已经大于p了,但是counter也为0,所以这里的计数器修正要变化一下
+      // 有可能是例如abdc这种字符串,长度已经大于p了,但是counter也为0,所以这里的计数器修正要变化一下
       // counter变化的条件就是begin kick掉的元素是属于p字符串的,特征是freq频率>=0 因为默认至少为1,所以-1了之后至少为0
       if (counter == 0) list.add(begin);
       if (end - begin == p.length() && freq[s.charAt(begin++)]++ >= 0) counter++;

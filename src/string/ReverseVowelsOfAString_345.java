@@ -24,8 +24,7 @@ package string;
  */
 public class ReverseVowelsOfAString_345 {
   public static void main(String[] args) {
-    String input = "hello";
-    System.out.println(reverseVowels01(input));
+    System.out.println('a'|32);
   }
 
   public static String reverseVowels(String s) {
@@ -92,7 +91,14 @@ public class ReverseVowelsOfAString_345 {
 
   /**
    * 大小写英文字母直接和`32`进行或运算可以大写转小写,因为大写字母从65~90,小于64+32,所以32那位一定是0,
+   * 96 = 64 + 32 = 2^6 + 2^5 = 0x 1100000
+   * <96 0x 10????
+   *  32 0x 010000
+   *  A  0x 11????
    *
+   * >96 0x 11?????
+   *  32 0x 0100000
+   *  A  0x 11?????
    * <p>而小写的字母是97~122,32那位上一定是1,与32进行或运算,小写字母不变,大写字母转小写
    *
    * @param s

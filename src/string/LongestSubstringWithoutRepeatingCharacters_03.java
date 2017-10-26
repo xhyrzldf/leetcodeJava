@@ -32,6 +32,7 @@ public class LongestSubstringWithoutRepeatingCharacters_03 {
 
   public int lengthOfLongestSubstring(String s) {
     int[] freq = new int[128];
+    //滑动窗口子串的定义是[begin,end),前闭后开
     int begin = 0, end = 0, counter = 0, d = 0;
     while (end < s.length()) {
       // 1.确定计数器什么时候加,在这道题中是当出现重复元素的时候增加计数器，counter用于统计重复元素出现的次数
