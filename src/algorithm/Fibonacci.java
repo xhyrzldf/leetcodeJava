@@ -21,8 +21,12 @@ public class Fibonacci {
 
   /* 递归解法 */
   public static long fibRecur(int n) {
-    if (n == 0 || n == 1) return n;
+    if (n <= 1) return 1;
     return fibRecur(n - 1) + fibRecur(n - 2);
+  }
+
+  public static long recurrence(int n){
+      return fibRecur(n);
   }
 
   private static final Map<Integer, Long> CACHE = new HashMap<>();
