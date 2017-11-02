@@ -1,10 +1,12 @@
 package test;
 
 import sort.InsertionSort;
+import sort.QuickSort;
 import sort.SelectionSort;
 
 import java.util.Arrays;
 
+import static utils.SortUtil.getRandomArray;
 import static utils.SortUtil.getRandomArrayNearlyOrder;
 import static utils.SortUtil.printSortTime;
 
@@ -17,9 +19,9 @@ import static utils.SortUtil.printSortTime;
  */
 public class SelectionSortTest {
   public static void main(String[] args) {
-    int[] array = getRandomArrayNearlyOrder(100000, 0);
-    int[] array01 = Arrays.copyOf(array, 100000);
-    printSortTime(array, SelectionSort::selectionSort, "selectionSort");
+    int[] array = getRandomArray(1000000, 1000000);
+    int[] array01 = Arrays.copyOf(array, 1000000);
+    printSortTime(array, QuickSort::quickSort2, "quickSort");
     printSortTime(array01, InsertionSort::insertionSortOpt, "insertSort");
   }
 }
