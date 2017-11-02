@@ -8,11 +8,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/utils/SortUtil.java" line="17" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="update fibonacci">
+    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="update some">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/bagProblem01.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/Fibonacci.java" afterPath="$PROJECT_DIR$/src/algorithm/Fibonacci.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/SelectionSortTest.java" afterPath="$PROJECT_DIR$/src/test/SelectionSortTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +77,16 @@
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="268">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#375#434#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#1827#1828#0" expanded="true" />
+                <element signature="e#1879#1880#0" expanded="true" />
+                <element signature="e#2961#2962#0" expanded="true" />
+                <element signature="e#3017#3018#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,16 +130,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters_03.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters_03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -342,7 +336,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="469" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -951,7 +945,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1011,14 +1005,7 @@
       <workItem from="1509339787804" duration="641000" />
       <workItem from="1509456179516" duration="2288000" />
       <workItem from="1509546385440" duration="2940000" />
-      <workItem from="1509627958302" duration="992000" />
-    </task>
-    <task id="LOCAL-00017" summary="google style check">
-      <created>1507235123168</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1507235123168</updated>
+      <workItem from="1509627958302" duration="1298000" />
     </task>
     <task id="LOCAL-00018" summary="readme update">
       <created>1507235188298</created>
@@ -1356,11 +1343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509173645630</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="update fibonacci">
+      <created>1509628981790</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1509628981791</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187609000" />
+    <option name="totallyTimeSpent" value="187915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1374,7 +1368,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41910332" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2992465" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2990249" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1435,6 +1429,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -1465,7 +1469,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update 345.ReverseVowelsOfAString" />
     <MESSAGE value="update 11.ContainerWithMostWater" />
     <MESSAGE value="update 03.lengthOfLongestSubstring" />
     <MESSAGE value="update 209.MinimumSizeSubarraySum" />
@@ -1490,7 +1493,8 @@
     <MESSAGE value="update  05.LongestPalindromicSubstring" />
     <MESSAGE value="fix 05.LongestPalindromicSubstring some bugs" />
     <MESSAGE value="update 01BagProblems" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 01BagProblems" />
+    <MESSAGE value="update fibonacci" />
+    <option name="LAST_COMMIT_MESSAGE" value="update fibonacci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1940,11 +1944,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="268">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding>
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#375#434#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+            <element signature="e#2961#2962#0" expanded="true" />
+            <element signature="e#3017#3018#0" expanded="true" />
           </folding>
         </state>
       </provider>

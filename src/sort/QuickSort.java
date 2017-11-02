@@ -1,7 +1,5 @@
 package sort;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 import static utils.SortUtil.swap;
@@ -29,7 +27,7 @@ import static utils.SortUtil.swap;
 public class QuickSort {
 
     /**
-     * 快速排序
+     * 快速排序123
      *
      * @param arr
      */
