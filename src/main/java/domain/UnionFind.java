@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 /**
  * @Description @Author Matrix [xhyrzldf@foxmail.com] @Date 2017/10/7 17:55

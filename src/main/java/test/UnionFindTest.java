@@ -1,6 +1,6 @@
-package main.java.test;
+package test;
 
-import main.java.domain.UnionFind;
+import domain.UnionFind;
 
 /**
  * Description : UnionFindTest Example

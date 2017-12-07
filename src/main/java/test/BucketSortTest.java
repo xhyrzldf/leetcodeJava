@@ -1,9 +1,9 @@
-package main.java.test;
+package test;
 
-import main.java.sort.BucketSort;
+import sort.BucketSort;
 
-import static main.java.utils.SortUtil.getRandomArray;
-import static main.java.utils.SortUtil.printSortTime;
+import static utils.SortUtil.getRandomArray;
+import static utils.SortUtil.printSortTime;
 
 /**
  * Description : BucketSortTest Example

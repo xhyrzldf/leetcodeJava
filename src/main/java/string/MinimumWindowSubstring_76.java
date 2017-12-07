@@ -1,4 +1,4 @@
-package main.java.string;
+package string;
 
 /**
  * Description : Given a string S and a string T, find the minimum window in S which will contain

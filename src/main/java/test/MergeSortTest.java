@@ -1,11 +1,11 @@
-package main.java.test;
+package test;
 
-import main.java.sort.MergeSort;
+import sort.MergeSort;
 
 import java.util.Arrays;
 
-import static main.java.utils.SortUtil.getRandomArray;
-import static main.java.utils.SortUtil.printSortTime;
+import static utils.SortUtil.getRandomArray;
+import static utils.SortUtil.printSortTime;
 
 /**
  * Description : MergeSort测试用例

@@ -1,4 +1,4 @@
-package main.java.algorithm;
+package algorithm;
 
 /**
  * <p>Description : dijkstra算法

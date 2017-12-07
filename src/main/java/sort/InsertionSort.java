@@ -1,4 +1,4 @@
-package main.java.sort;
+package sort;
 
 import static main.java.utils.SortUtil.swap;
 

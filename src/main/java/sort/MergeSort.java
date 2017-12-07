@@ -1,4 +1,4 @@
-package main.java.sort;
+package sort;
 
 @SuppressWarnings("WeakerAccess")
 public class MergeSort {

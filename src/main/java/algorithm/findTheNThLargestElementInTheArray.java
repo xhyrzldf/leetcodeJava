@@ -1,4 +1,4 @@
-package main.java.algorithm;
+package algorithm;
 
 
 import main.java.sort.QuickSort;

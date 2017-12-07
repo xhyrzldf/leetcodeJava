@@ -1,4 +1,4 @@
-package main.java.sort;
+package sort;
 
 /**
  * @Description @Author matrix[xhyrzldf@foxmail.com] @Date 2017/9/16 22:17

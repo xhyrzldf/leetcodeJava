@@ -1,4 +1,4 @@
-package main.java.array;
+package array;
 
 /**
  * Description : leetcodeJava

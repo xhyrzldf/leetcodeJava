@@ -29,6 +29,6 @@
     - ![#228B22](https://placehold.it/15/228B22/000000?text=+) `459.RepeatedSubstringPattern`
 - 2017-10-26 更新了
     - ![#FFCC00](https://placehold.it/15/ffcc00/000000?text=+) `05.LongestPalindromicSubstring`
-
+- 2017-12-07 工程转换为maven工程,使用guava工具包,原因是java自身的集合类库初始化集合太麻烦了
 
     

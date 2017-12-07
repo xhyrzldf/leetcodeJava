@@ -1,4 +1,4 @@
-package main.java.sort;
+package sort;
 
 import main.java.domain.MaxHeap;
 

@@ -1,4 +1,4 @@
-package main.java.array;
+package array;
 
 /**
  * Description : Given an array of integers that is already sorted in ascending order, find two

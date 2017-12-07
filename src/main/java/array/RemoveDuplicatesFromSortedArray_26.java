@@ -1,4 +1,4 @@
-package main.java.array;
+package array;
 
 /**
  * RemoveDuplicatesFromSortedArray_26 Given a sorted array, remove the duplicates in place such that

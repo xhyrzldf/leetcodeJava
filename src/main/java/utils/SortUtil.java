@@ -1,4 +1,4 @@
-package main.java.utils;
+package utils;
 
 import java.util.Random;
 import java.util.function.Consumer;

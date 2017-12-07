@@ -1,11 +1,11 @@
-package main.java.test;
+package test;
 
-import main.java.sort.MergeSort;
-import main.java.sort.QuickSort;
+import sort.MergeSort;
+import sort.QuickSort;
 
 import java.util.Arrays;
 
-import static main.java.utils.SortUtil.*;
+import static utils.SortUtil.*;
 
 /**
  * Description : 快速排序测试用例

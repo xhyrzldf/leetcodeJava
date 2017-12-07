@@ -1,4 +1,4 @@
-package main.java.string;
+package string;
 
 /**
  * Description : Given a string, determine if it is a palindrome, considering only alphanumeric

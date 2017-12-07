@@ -1,4 +1,4 @@
-package main.java.array;
+package array;
 
 /**
  * Description : Given an array of n positive integers and a positive integer s, find the minimal

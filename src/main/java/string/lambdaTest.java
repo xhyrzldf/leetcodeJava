@@ -1,6 +1,5 @@
 package string;
 
-import main.java.string.Artist;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

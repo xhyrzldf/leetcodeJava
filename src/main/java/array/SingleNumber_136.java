@@ -1,4 +1,4 @@
-package main.java.array;
+package array;
 
 import java.util.Arrays;
 

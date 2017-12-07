@@ -1,4 +1,4 @@
-package main.java.array;
+package array;
 
 /**
  * Description : Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one

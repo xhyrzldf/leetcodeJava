@@ -1,4 +1,4 @@
-package main.java.string;
+package string;
 
 /**
  * Description : Given a string s, find the longest palindromic substring in s. You may assume that

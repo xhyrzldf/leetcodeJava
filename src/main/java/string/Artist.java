@@ -1,4 +1,4 @@
-package main.java.string;
+package string;
 
 /**
  * <p>Description : leetcodeJava

@@ -1,4 +1,6 @@
-package main.java.domain;
+package domain;
+
+import domain.MaxHeap;
 
 /**
  * @Description @Author matrix[xhyrzldf@foxmail.com] @Date 2017/9/26 22:39

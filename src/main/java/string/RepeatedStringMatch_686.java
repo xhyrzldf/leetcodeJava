@@ -1,4 +1,4 @@
-package main.java.string;
+package string;
 
 /**
  * Description : Given two strings A and B, find the minimum number of times A has to be repeated

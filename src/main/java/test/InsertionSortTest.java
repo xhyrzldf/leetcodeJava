@@ -1,12 +1,12 @@
-package main.java.test;
+package test;
 
-import main.java.sort.InsertionSort;
-import main.java.sort.SelectionSort;
+import sort.InsertionSort;
+import sort.SelectionSort;
 
 import java.util.Arrays;
 
-import static main.java.utils.SortUtil.getRandomArrayNearlyOrder;
-import static main.java.utils.SortUtil.printSortTime;
+import static utils.SortUtil.getRandomArrayNearlyOrder;
+import static utils.SortUtil.printSortTime;
 
 
 /**
