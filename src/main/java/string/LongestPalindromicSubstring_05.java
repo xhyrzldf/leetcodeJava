@@ -1,4 +1,4 @@
-package string;
+package main.java.string;
 
 /**
  * Description : Given a string s, find the longest palindromic substring in s. You may assume that
@@ -22,11 +22,11 @@ public class LongestPalindromicSubstring_05 {
 
     public String longestPalindrome(String s) {
         int n = s.length();
-        if(n <= 1) return s;
+        if (n <= 1) return s;
 
-        for (int i = 0; i < n-1 ; i++) {
-            extensionSubstring(s,i,i);
-            extensionSubstring(s,i,i+1);
+        for (int i = 0; i < n - 1; i++) {
+            extensionSubstring(s, i, i);
+            extensionSubstring(s, i, i + 1);
         }
 
         return s.substring(index, index + maxLength);

@@ -1,24 +1,24 @@
-package sort;
+package main.java.sort;
 
 @SuppressWarnings("WeakerAccess")
 public class MergeSort {
 
-  /**
-   * 递归归并排序,对范围arr[0,n]范围内的元素进行归并排序,注意这里是闭区间
-   *
-   * @param arr
-   */
-  public static void mergeSort(int[] arr) {
-    __mergeSort(arr, 0, arr.length - 1);
-  }
+    /**
+     * 递归归并排序,对范围arr[0,n]范围内的元素进行归并排序,注意这里是闭区间
+     *
+     * @param arr
+     */
+    public static void mergeSort(int[] arr) {
+        __mergeSort(arr, 0, arr.length - 1);
+    }
 
-  /**
-   * 自底而上的归并排序 好处是不需要使用很多内存空间,因为这个是循环 :)
-   *
-   * @param arr
-   */
-  public static void mergeSortBU(int[] arr) {
-    for (int sz = 1; sz <= arr.length; sz += sz) { // 每次merge的区间,从下往上分别1,2,4,8...
+    /**
+     * 自底而上的归并排序 好处是不需要使用很多内存空间,因为这个是循环 :)
+     *
+     * @param arr
+     */
+    public static void mergeSortBU(int[] arr) {
+        for (int sz = 1; sz <= arr.length; sz += sz) { // 每次merge的区间,从下往上分别1,2,4,8...
       /*将arr[i,i+sz-1]与arr[i+sz,i+2*sz-1]的范围内的数组进行归并,每次归并完之后i往后移动2个size的距离
           [     3       ,     1   ,     5   ,     8   ,     4   ,     6   ,     2   ,     9    ,    7   ]
                i------------i+sz-1-----i+sz-------i+2z-1
@@ -35,49 +35,49 @@ public class MergeSort {
               2.对于比较小的sz 采用插入排序来代替,因为在小范围内 A*n^2 < B*n*logN (B > A)
       */
 
-      for (int i = 0; i + sz < arr.length; i += sz + sz) {
-        if (sz <= 15) InsertionSort.insertionSortForOpt(arr, i, i + sz + sz - 1);
-        else if (arr[i + sz - 1] > arr[i + sz])
-          __merge(arr, i, i + sz - 1, Math.min(i + sz + sz - 1, arr.length - 1));
-      }
+            for (int i = 0; i + sz < arr.length; i += sz + sz) {
+                if (sz <= 15) InsertionSort.insertionSortForOpt(arr, i, i + sz + sz - 1);
+                else if (arr[i + sz - 1] > arr[i + sz])
+                    __merge(arr, i, i + sz - 1, Math.min(i + sz + sz - 1, arr.length - 1));
+            }
+        }
     }
-  }
 
-  // 对arr[l,r]范围内的数组进行归并排序
-  private static void __mergeSort(int[] arr, int l, int r) {
-    // 设置结束条件
-    if (r - l <= 15) {
-      InsertionSort.insertionSortForOpt(arr, l, r);
-      return;
+    // 对arr[l,r]范围内的数组进行归并排序
+    private static void __mergeSort(int[] arr, int l, int r) {
+        // 设置结束条件
+        if (r - l <= 15) {
+            InsertionSort.insertionSortForOpt(arr, l, r);
+            return;
+        }
+        // 分成[l,middle] 与[middle+1, r]两组,分别进行归并排序
+        int middle = (l + r) / 2;
+        __mergeSort(arr, l, middle);
+        __mergeSort(arr, middle + 1, r);
+        // 对这两组进行归并,添加if条件,减少merge次数
+        if (arr[middle] > arr[middle + 1]) __merge(arr, l, middle, r);
     }
-    // 分成[l,middle] 与[middle+1, r]两组,分别进行归并排序
-    int middle = (l + r) / 2;
-    __mergeSort(arr, l, middle);
-    __mergeSort(arr, middle + 1, r);
-    // 对这两组进行归并,添加if条件,减少merge次数
-    if (arr[middle] > arr[middle + 1]) __merge(arr, l, middle, r);
-  }
 
-  // 对范围arr[l,middle] 与[middle+1,r] 两部分进行归并
-  private static void __merge(int[] arr, int l, int mid, int r) {
-    int[] aux = new int[r - l + 1];
-    System.arraycopy(arr, l, aux, 0, r - l + 1);
+    // 对范围arr[l,middle] 与[middle+1,r] 两部分进行归并
+    private static void __merge(int[] arr, int l, int mid, int r) {
+        int[] aux = new int[r - l + 1];
+        System.arraycopy(arr, l, aux, 0, r - l + 1);
 
-    int i = l, j = mid + 1;
-    for (int k = l; k <= r; k++) {
-      if (i > mid) {
-        arr[k] = aux[j - l];
-        j++;
-      } else if (j > r) {
-        arr[k] = aux[i - l];
-        i++;
-      } else if (aux[i - l] < aux[j - l]) {
-        arr[k] = aux[i - l];
-        i++;
-      } else {
-        arr[k] = aux[j - l];
-        j++;
-      }
+        int i = l, j = mid + 1;
+        for (int k = l; k <= r; k++) {
+            if (i > mid) {
+                arr[k] = aux[j - l];
+                j++;
+            } else if (j > r) {
+                arr[k] = aux[i - l];
+                i++;
+            } else if (aux[i - l] < aux[j - l]) {
+                arr[k] = aux[i - l];
+                i++;
+            } else {
+                arr[k] = aux[j - l];
+                j++;
+            }
+        }
     }
-  }
 }

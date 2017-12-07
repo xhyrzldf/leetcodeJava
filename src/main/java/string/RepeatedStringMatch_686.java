@@ -1,4 +1,4 @@
-package string;
+package main.java.string;
 
 /**
  * Description : Given two strings A and B, find the minimum number of times A has to be repeated
@@ -35,10 +35,10 @@ public class RepeatedStringMatch_686 {
         StringBuilder repeatSB = new StringBuilder();
         while (repeatSB.length() < B.length()) {
             repeatSB.append(A);
-            count ++;
+            count++;
         }
-            if (repeatSB.toString().contains(B)) return count;
-            if (repeatSB.append(A).toString().contains(B)) return count + 1;
+        if (repeatSB.toString().contains(B)) return count;
+        if (repeatSB.append(A).toString().contains(B)) return count + 1;
         return -1;
     }
 

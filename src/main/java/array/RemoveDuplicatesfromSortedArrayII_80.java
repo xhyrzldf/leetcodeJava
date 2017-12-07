@@ -1,4 +1,4 @@
-package array;
+package main.java.array;
 
 /**
  * Follow up for ”Remove Duplicates”: What if duplicates are allowed at most twice?For example,
@@ -9,22 +9,22 @@ package array;
 @SuppressWarnings("unused")
 public class RemoveDuplicatesfromSortedArrayII_80 {
 
-  public static int RemoveDuplicatesfromSortedArrayII01(int[] nums) {
-    if (nums == null || nums.length == 0) return 0;
-    int k = 1;
-    int count = 1; // 思路与移出重复数字I的题目一样,只是这里多加一个变量用于计数,默认为1,因为我们是从第二个数开始遍历的
-    for (int i = 1; i < nums.length; i++) {
-      if (nums[i] != nums[k - 1]) {
-        nums[k++] = nums[i];
-        count = 1; // 每次寻找到新的数字的时候将count赋值为1
-      } else {
-        if (count >= 2) { // 允许重复的数字出现2次,如果超过2次了,就跳过
-          continue;
+    public static int RemoveDuplicatesfromSortedArrayII01(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        int k = 1;
+        int count = 1; // 思路与移出重复数字I的题目一样,只是这里多加一个变量用于计数,默认为1,因为我们是从第二个数开始遍历的
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[k - 1]) {
+                nums[k++] = nums[i];
+                count = 1; // 每次寻找到新的数字的时候将count赋值为1
+            } else {
+                if (count >= 2) { // 允许重复的数字出现2次,如果超过2次了,就跳过
+                    continue;
+                }
+                nums[k++] = nums[i];
+                count++;
+            }
         }
-        nums[k++] = nums[i];
-        count++;
-      }
+        return k;
     }
-    return k;
-  }
 }

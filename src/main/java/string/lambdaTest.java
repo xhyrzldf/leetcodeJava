@@ -1,5 +1,7 @@
 package string;
 
+import main.java.string.Artist;
+
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
@@ -14,9 +16,9 @@ import static java.util.stream.Collectors.toList;
  */
 public class lambdaTest {
 
-    public static List<String> getArtistNamesAndNations(List<Artist> artists){
+    public static List<String> getArtistNamesAndNations(List<Artist> artists) {
         return artists.stream()
-                .flatMap(artist -> Stream.of(artist.getName(),artist.getNationality()))
+                .flatMap(artist -> Stream.of(artist.getName(), artist.getNationality()))
                 .collect(toList());
     }
 
@@ -25,8 +27,8 @@ public class lambdaTest {
 
 
         List<Artist> artists = Arrays.asList(
-                new Artist("jack","china"),
-                new Artist("mike","London")
+                new Artist("jack", "china"),
+                new Artist("mike", "London")
         );
 
         System.out.println(getArtistNamesAndNations(artists).size());

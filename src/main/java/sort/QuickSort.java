@@ -1,8 +1,8 @@
-package sort;
+package main.java.sort;
 
 import java.util.Random;
 
-import static utils.SortUtil.swap;
+import static main.java.utils.SortUtil.swap;
 
 /**
  * <h1>class_name: QuickSort</h1>
