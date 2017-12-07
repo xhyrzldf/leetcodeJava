@@ -68,7 +68,7 @@ public class QuickSort {
         // 这里做一个优化,选取一个随机元素来作为partition,这样可以大大的降低快排降低到n^2级别的概率
         swap(arr, l, new Random().nextInt(r - l + 1) + l);
         int e = arr[l];
-        // arr[l + 1, j] < e < arr[j + 1, i)
+        //[l+1,j]<i  i>(j+1,i]
         int j = l;
         for (int i = j + 1; i <= r; i++) {
             if (arr[i] < e) {
@@ -115,11 +115,12 @@ public class QuickSort {
 
         swap(arr, l, new Random().nextInt(r - l + 1) + l);
         int e = arr[l];
-        // arr[l+1...i) <= e , arr(j...r] >= e
-        int i = l + 1, j = r;
+        // arr[l+1...i) <= e , arr(j...r] >= e\
+        int i = l + 1;
+        int j = r;
         while (true) {
             while (i <= r && arr[i] < e) i++;
-            while (j >= l + 1 && arr[j] > e) j--;
+            while (j >= l && arr[j] > e) j--;
             if (i > j) break;
             swap(arr, i++, j--);
         }

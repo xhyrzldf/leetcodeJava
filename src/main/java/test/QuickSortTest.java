@@ -31,7 +31,7 @@ public class QuickSortTest {
     arr02 = Arrays.copyOf(arr, n);
     arr03 = Arrays.copyOf(arr, n);
     System.out.printf("\nRandom array NearlyOrder length is : %d , \t randomRange(0,%d)\n", n, n);
-    printSortTime(arr, MergeSort::mergeSort, "mergeSort");
+    printSortTime(arr, QuickSort::quickSort, "mergeSort");
     printSortTime(arr02, QuickSort::quickSort2, "QuickSort2");
     printSortTime(arr03, QuickSort::quickSort3Ways, "QuickSort3Ways");
 
