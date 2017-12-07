@@ -1,8 +1,9 @@
 package sort;
 
-import main.java.domain.MaxHeap;
+import domain.MaxHeap;
 
-import static main.java.utils.SortUtil.swap;
+import static utils.SortUtil.swap;
+
 
 /**
  * @Description 堆排序 @Author matrix[xhyrzldf@foxmail.com] @Date 2017/9/26 22:53

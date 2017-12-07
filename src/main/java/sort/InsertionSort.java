@@ -1,6 +1,6 @@
 package sort;
 
-import static main.java.utils.SortUtil.swap;
+import static utils.SortUtil.swap;
 
 @SuppressWarnings("WeakerAccess")
 public class InsertionSort {

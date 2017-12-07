@@ -9,63 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_5_jre.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcodeJava.iml" afterPath="$PROJECT_DIR$/leetcodeJava.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/Dijkstra.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Dijkstra.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/Fibonacci.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Fibonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/bagProblem01.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/bagProblem01.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/findTheNThLargestElementInTheArray.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/findTheNThLargestElementInTheArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/ContainerWithMostWater_11.java" afterPath="$PROJECT_DIR$/src/main/java/array/ContainerWithMostWater_11.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/MergeSortedArray_88.java" afterPath="$PROJECT_DIR$/src/main/java/array/MergeSortedArray_88.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/MinimumSizeSubarraySum_209.java" afterPath="$PROJECT_DIR$/src/main/java/array/MinimumSizeSubarraySum_209.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/MoveZeros_287.java" afterPath="$PROJECT_DIR$/src/main/java/array/MoveZeros_287.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesFromSortedArray_26.java" afterPath="$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesFromSortedArray_26.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesfromSortedArrayII_80.java" afterPath="$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesfromSortedArrayII_80.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/RemoveElement_27.java" afterPath="$PROJECT_DIR$/src/main/java/array/RemoveElement_27.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/SingleNumber_136.java" afterPath="$PROJECT_DIR$/src/main/java/array/SingleNumber_136.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/SortColors_75.java" afterPath="$PROJECT_DIR$/src/main/java/array/SortColors_75.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/TwoSumII_167.java" afterPath="$PROJECT_DIR$/src/main/java/array/TwoSumII_167.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/TwoSum_01.java" afterPath="$PROJECT_DIR$/src/main/java/array/TwoSum_01.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/domain/MaxHeap.java" afterPath="$PROJECT_DIR$/src/main/java/domain/MaxHeap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/domain/PrintableMaxHeap.java" afterPath="$PROJECT_DIR$/src/main/java/domain/PrintableMaxHeap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/domain/UnionFind.java" afterPath="$PROJECT_DIR$/src/main/java/domain/UnionFind.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sort/BucketSort.java" afterPath="$PROJECT_DIR$/src/main/java/sort/BucketSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" afterPath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sort/InsertionSort.java" afterPath="$PROJECT_DIR$/src/main/java/sort/InsertionSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" afterPath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sort/SelectionSort.java" afterPath="$PROJECT_DIR$/src/main/java/sort/SelectionSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/Artist.java" afterPath="$PROJECT_DIR$/src/main/java/string/Artist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/FindAllAnagramsInAString_438.java" afterPath="$PROJECT_DIR$/src/main/java/string/FindAllAnagramsInAString_438.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubsequence_516.java" afterPath="$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubsequence_516.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubstring_05.java" afterPath="$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubstring_05.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" afterPath="$PROJECT_DIR$/src/main/java/string/LongestSubstringWithAtMostTwoDistinctCharacters_159.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/LongestSubstringWithoutRepeatingCharacters_03.java" afterPath="$PROJECT_DIR$/src/main/java/string/LongestSubstringWithoutRepeatingCharacters_03.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/MinimumWindowSubstring_76.java" afterPath="$PROJECT_DIR$/src/main/java/string/MinimumWindowSubstring_76.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/RepeatedStringMatch_686.java" afterPath="$PROJECT_DIR$/src/main/java/string/RepeatedStringMatch_686.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/RepeatedSubstringPattern_459.java" afterPath="$PROJECT_DIR$/src/main/java/string/RepeatedSubstringPattern_459.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/ReverseString_344.java" afterPath="$PROJECT_DIR$/src/main/java/string/ReverseString_344.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/ReverseVowelsOfAString_345.java" afterPath="$PROJECT_DIR$/src/main/java/string/ReverseVowelsOfAString_345.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/ValidPalindrome_125.java" afterPath="$PROJECT_DIR$/src/main/java/string/ValidPalindrome_125.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/string/lambdaTest.java" afterPath="$PROJECT_DIR$/src/main/java/string/lambdaTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/BucketSortTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/BucketSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/HeapSortTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/HeapSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/InsertionSortTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/InsertionSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/MergeSortTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/MergeSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/QuickSortTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/QuickSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/SelectionSortTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/SelectionSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/UnionFindTest.java" afterPath="$PROJECT_DIR$/src/main/java/test/UnionFindTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/SortUtil.java" afterPath="$PROJECT_DIR$/src/main/java/utils/SortUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,6 +25,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -101,21 +54,92 @@
       <file leaf-file-name="Dijkstra.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Dijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="156">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#2600#2601#0" expanded="true" />
+                <element signature="e#2649#2650#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findTheNThLargestElementInTheArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/findTheNThLargestElementInTheArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BucketSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/BucketSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bagProblem01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/bagProblem01.java">
+      <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1680">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImmutableMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mavenfiles/com/google/guava/guava/23.5-jre/guava-23.5-jre-sources.jar!/com/google/common/collect/ImmutableMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1303">
+              <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+              <folding>
+                <element signature="e#4557#4558#0" expanded="true" />
+                <element signature="e#4620#4621#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,74 +162,6 @@
             <state relative-caret-position="406">
               <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/MergeSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/QuickSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/SelectionSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnionFindTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/UnionFindTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BucketSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/BucketSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertionSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/InsertionSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -250,14 +206,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/SortUtil.java" />
         <option value="$PROJECT_DIR$/src/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/test/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Dijkstra.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/bagProblem01.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/findTheNThLargestElementInTheArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/ContainerWithMostWater_11.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/MergeSortedArray_88.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/MinimumSizeSubarraySum_209.java" />
@@ -273,11 +227,7 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/PrintableMaxHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/main/java/sort/BucketSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/string/Artist.java" />
         <option value="$PROJECT_DIR$/src/main/java/string/FindAllAnagramsInAString_438.java" />
         <option value="$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubsequence_516.java" />
@@ -300,6 +250,12 @@
         <option value="$PROJECT_DIR$/src/main/java/test/UnionFindTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/string/lambdaTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/mavenfiles/com/google/guava/guava/23.5-jre/guava-23.5-jre.jar!/com/google/common/collect/ImmutableList.class" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/findTheNThLargestElementInTheArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Dijkstra.java" />
       </list>
     </option>
@@ -513,7 +469,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSortTest">
+  <component name="RunManager" selected="Application.Dijkstra">
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="algorithm.Dijkstra" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="leetcodeJava" />
+      <envs />
+    </configuration>
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1042,39 +1017,20 @@
       <module name="leetcodeJava" />
       <envs />
     </configuration>
-    <configuration name="lambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="string.lambdaTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="leetcodeJava" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.lambdaTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.bagProblem01" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SelectionSortTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HeapSortTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.bagProblem01" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Fibonacci" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SelectionSortTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HeapSortTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Dijkstra" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HeapSortTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SelectionSortTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="3" class="java.lang.String" itemvalue="Application.bagProblem01" />
-        <item index="4" class="java.lang.String" itemvalue="Application.lambdaTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Dijkstra" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HeapSortTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SelectionSortTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Fibonacci" />
+        <item index="4" class="java.lang.String" itemvalue="Application.bagProblem01" />
       </list>
     </recent_temporary>
   </component>
@@ -1153,14 +1109,7 @@
       <workItem from="1510730402173" duration="1445000" />
       <workItem from="1512489548209" duration="687000" />
       <workItem from="1512527651776" duration="5960000" />
-      <workItem from="1512611864630" duration="2605000" />
-    </task>
-    <task id="LOCAL-00023" summary="快速排序测试用例,注释opt">
-      <created>1507371725665</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1507371725665</updated>
+      <workItem from="1512611864630" duration="9127000" />
     </task>
     <task id="LOCAL-00024" summary="选择排序测试用例,注释opt">
       <created>1507371800711</created>
@@ -1498,11 +1447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512612873656</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="add google guava">
+      <created>1512614490747</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1512614490747</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206640000" />
+    <option name="totallyTimeSpent" value="213162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1510,13 +1466,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272921" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4182015" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4182015" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2708559" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8959913" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1617,7 +1573,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update 438.FindAllAnagramsInAString" />
     <MESSAGE value="update 159.LongestSubstringWithAtMostTwoDistinctCharacters" />
     <MESSAGE value="update readme color" />
     <MESSAGE value="update string template" />
@@ -1642,7 +1597,8 @@
     <MESSAGE value="update bagProblem" />
     <MESSAGE value="translate to Maven Project" />
     <MESSAGE value="translate to Maven Project and fix some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="translate to Maven Project and fix some bugs" />
+    <MESSAGE value="add google guava" />
+    <option name="LAST_COMMIT_MESSAGE" value="add google guava" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1664,65 +1620,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
-            <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcodeJava.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/findTheNThLargestElementInTheArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1842,55 +1744,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/BucketSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding>
-            <element signature="e#61#94#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2003,7 +1861,7 @@
         <state relative-caret-position="508">
           <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2013,7 +1871,7 @@
         <state relative-caret-position="308">
           <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2023,7 +1881,7 @@
         <state relative-caret-position="308">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2033,7 +1891,7 @@
         <state relative-caret-position="224">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2092,11 +1950,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/mavenfiles/com/google/guava/guava/23.5-jre/guava-23.5-jre.jar!/com/google/common/collect/ImmutableList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenfiles/com/google/guava/guava/23.5-jre/guava-23.5-jre-sources.jar!/com/google/common/collect/ImmutableCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="165" column="62" lean-forward="true" selection-start-line="165" selection-start-column="62" selection-end-line="165" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenfiles/com/google/guava/guava/23.5-jre/guava-23.5-jre-sources.jar!/com/google/common/collect/ImmutableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <element signature="e#2983#2984#0" expanded="false" />
+            <element signature="e#3024#3025#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenfiles/com/google/guava/guava/23.5-jre/guava-23.5-jre-sources.jar!/com/google/common/collect/ImmutableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1303">
+          <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+          <folding>
+            <element signature="e#4557#4558#0" expanded="true" />
+            <element signature="e#4620#4621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/findTheNThLargestElementInTheArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/BucketSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="156">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#2600#2601#0" expanded="true" />
+            <element signature="e#2649#2650#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

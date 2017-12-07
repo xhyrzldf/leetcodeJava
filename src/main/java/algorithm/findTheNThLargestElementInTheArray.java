@@ -1,13 +1,13 @@
 package algorithm;
 
 
-import main.java.sort.QuickSort;
+import sort.QuickSort;
 
 import java.util.Arrays;
 import java.util.Random;
 
-import static main.java.utils.SortUtil.getRandomArray;
-import static main.java.utils.SortUtil.swap;
+import static utils.SortUtil.getRandomArray;
+import static utils.SortUtil.swap;
 
 
 /**
