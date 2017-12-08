@@ -57,7 +57,6 @@ public class HeapSortTest {
         arr05 = intArrayToInetegerArray(Arrays.copyOf(arr, n));
         arr06 = Arrays.copyOf(arr, n);
         arr07 = Arrays.copyOf(arr, n);
-
         System.out.printf("\nRandom array NearlyOrder length is : %d , \t swaptimes(0,%d)\n", n, s);
         printSortTime(arr, MergeSort::mergeSort, "mergeSort");
         printSortTime(arr02, QuickSort::quickSort2, "QuickSort2");
