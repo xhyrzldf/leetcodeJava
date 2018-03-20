@@ -38,14 +38,15 @@ public class Dijkstra {
                 "A", Optional.of("起点"),
                 "B", Optional.of("起点"),
                 "终点", Optional.empty());
-
-
     }
 
     public static void main(String[] args) {
         dijkstra();
     }
 
+    /**
+     * dijkstra 算法
+     */
     private static void dijkstra() {
         String node = findLowestCostNode(COSTS);
         while (nonNull(node)) {
@@ -63,6 +64,12 @@ public class Dijkstra {
         }
     }
 
+    /**
+     * 寻找到最小的节点
+     *
+     * @param costs
+     * @return
+     */
     private static String findLowestCostNode(Map<String, Optional<Integer>> costs) {
         Integer lowestCost = Integer.MAX_VALUE;
         Optional<String> lowestCostNode = Optional.empty();
@@ -75,7 +82,6 @@ public class Dijkstra {
         }
         return lowestCostNode.orElse("notFindNode");
     }
-
 
     private static <T> List<T> listOf(T... params) {
         return Lists.newArrayList(params);
