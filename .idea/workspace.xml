@@ -8,9 +8,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/utils/SortUtil.java" line="17" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="">
+    <list default="true" id="8117cf44-bfb9-41ce-8550-ae87c51d605e" name="Default" comment="finish 15.3Sum">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/array/ThreeSum_15.java" afterPath="$PROJECT_DIR$/src/main/java/array/ThreeSum_15.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,12 +66,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="960">
-                <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <first_editor relative-caret-position="645">
+                <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -79,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreeSum_15.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreeSum_15.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/array/ThreeSum_15.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="563">
@@ -200,7 +200,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Dijkstra.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/bagProblem01.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/ContainerWithMostWater_11.java" />
@@ -249,6 +248,7 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/HeapSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/ThreeSum_15.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1184,13 +1184,6 @@
       <workItem from="1512663751928" duration="1125000" />
       <workItem from="1512695673752" duration="2160000" />
     </task>
-    <task id="LOCAL-00025" summary="注释优化">
-      <created>1507371996040</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1507371996040</updated>
-    </task>
     <task id="LOCAL-00026" summary="添加并查集的测试用例">
       <created>1507372262001</created>
       <option name="number" value="00026" />
@@ -1527,11 +1520,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521555698993</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="finish 15.3Sum">
+      <created>1521557287273</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1521557287273</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220037000" />
+    <option name="totallyTimeSpent" value="220093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1664,7 +1664,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update readme color" />
     <MESSAGE value="update string template" />
     <MESSAGE value="update string template practise" />
     <MESSAGE value="update string template practise1" />
@@ -1689,7 +1688,8 @@
     <MESSAGE value="translate to Maven Project and fix some bugs" />
     <MESSAGE value="add google guava" />
     <MESSAGE value="15.3sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.3sum" />
+    <MESSAGE value="finish 15.3Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish 15.3Sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1973,17 +1973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="960">
-            <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -2025,6 +2014,17 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="645">
+            <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
